@@ -1,6 +1,25 @@
 export function createGUI(scene, camera, jenga, callbacks = {}) {
   const ui = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI", true, scene);
 
+  const engine = scene.getEngine();
+
+
+  function getUIScale() {
+  const width = engine.getRenderWidth();
+
+  if (width < 900) return 0.6;
+  if (width < 1200) return 0.75;
+  if (width < 1600) return 0.9;
+  return 1.0;
+}
+
+const uiScale = getUIScale();
+ui.rootContainer.scaleX = uiScale;
+ui.rootContainer.scaleY = uiScale;
+
+
+
+
 
 // ===============================
 // ROOT FOR STATE-DEPENDENT UI
@@ -14,7 +33,7 @@ titleRoot.isVisible = true; // visible during DEMO
 ui.addControl(titleRoot);
 
 const statusPanel = new BABYLON.GUI.StackPanel();
-statusPanel.width = "500px";
+statusPanel.width = "15%";
 statusPanel.isVertical = true;
 statusPanel.spacing = 6;
 
