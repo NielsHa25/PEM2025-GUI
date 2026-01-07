@@ -31,12 +31,6 @@ orange.albedoColor = new BABYLON.Color3(0.04, 0.04, 0.05);
 orange.metallic = 0.3;
 orange.roughness = 0.5;
 
-// --- Wood----
-var woodMaterial = new BABYLON.StandardMaterial("woodMat", scene);
-var woodTexture = new BABYLON.WoodProceduralTexture("woodTex", 1024, scene);
-woodTexture.ampScale = 80.0;
-woodMaterial.diffuseTexture = woodTexture;
-
 
 var moveMat = new BABYLON.StandardMaterial("moveMat", scene);
 moveMat.diffuseColor = new BABYLON.Color3(1, 1, 0);
@@ -54,7 +48,6 @@ baseMat.roughness = 0.4;
     nemaGrey,
     wood,
     orange,
-    woodMaterial,
     moveMat,
     baseMat,
   };
