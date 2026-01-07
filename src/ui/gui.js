@@ -4,22 +4,7 @@ export function createGUI(scene, camera, jenga, callbacks = {}) {
   const engine = scene.getEngine();
 
 
-  function getUIScale() {
-  const width = engine.getRenderWidth();
-
-  if (width < 900) return 0.6;
-  if (width < 1200) return 0.75;
-  if (width < 1600) return 0.9;
-  return 1.0;
-}
-
-const uiScale = getUIScale();
-ui.rootContainer.scaleX = uiScale;
-ui.rootContainer.scaleY = uiScale;
-
-
-
-
+  
 
 // ===============================
 // ROOT FOR STATE-DEPENDENT UI
@@ -33,7 +18,7 @@ titleRoot.isVisible = true; // visible during DEMO
 ui.addControl(titleRoot);
 
 const statusPanel = new BABYLON.GUI.StackPanel();
-statusPanel.width = "15%";
+statusPanel.width = "600px";
 statusPanel.isVertical = true;
 statusPanel.spacing = 6;
 
@@ -381,6 +366,38 @@ controlContent.addControl(resetBtn);
 
 contentRoot.addControl(controlPanel);
 
+
+
+
+ // ===============================
+  // SCALE GUI ACCORING TO SCREEN SIZE
+  // ===============================
+
+
+
+function getUIScale() {
+  const width = engine.getRenderWidth();
+
+  if (width < 900) return 0.5;
+  if (width < 1200) return 0.75;
+  if (width < 1600) return 0.8;
+  return 1.0;
+}
+
+const uiScale = getUIScale();
+
+titleRoot.scaleX = uiScale;
+titleRoot.scaleY = uiScale;
+
+contentRoot.scaleY = uiScale;
+contentRoot.scaleX = uiScale;
+
+
+window.addEventListener("resize", () => {
+  const s = getUIScale(scene.getEngine());
+  contentRoot.scaleX = contentRoot.scaleY = s;
+  titleRoot.scaleX = titleRoot.scaleY = s;
+});
 
 
   // ===============================
