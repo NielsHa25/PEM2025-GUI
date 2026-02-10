@@ -97,16 +97,31 @@ export function enableJengaSelection(scene, onHover, onSelectionChange) {
   // Controller API (THIS WAS MISSING)
   // -------------------------
   return {
-    enable() {
-      enabled = true;
-    },
-    disable() {
-      enabled = false;
-    },
-    clear() {
-      selected.forEach(clearHighlight);
-      selected.clear();
-      onSelectionChange?.([]);
-    }
-  };
+  enable() {
+    enabled = true;
+  },
+  disable() {
+    enabled = false;
+  },
+  clear() {
+    selected.forEach(clearHighlight);
+    selected.clear();
+    onSelectionChange?.([]);
+  },
+
+  // ⭐ THIS IS WHAT YOU WANT ⭐
+  getSelectedStones() {
+  return [...selected].map(mesh => {
+    // mesh.name = "block_<layer>_<index>"
+    const [, layer, index] = mesh.name.split("_");
+
+    return {
+      layer: parseInt(layer, 10),
+      index: parseInt(index, 10)
+    };
+  });
+}
+
+};
+
 }

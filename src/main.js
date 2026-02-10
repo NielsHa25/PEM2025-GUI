@@ -8,6 +8,7 @@ import { createJengaTower } from "./scene/createJengaTower.js";
 import { createRobotMotion } from "./robot/robotMotion.js";
 import { createCameraHelper } from "./scene/cameraHelper.js";
 import { enableJengaSelection } from "./scene/jengaSelection.js";
+import { sendStart } from "./net/esp32.js";
 
 
 // Architecture
@@ -68,26 +69,47 @@ const selection = enableJengaSelection(
 // --- GUI ---
 const gui = createGUI(scene, camera, jenga, {
   onBegin() {
-    if (currentState !== AppState.READY) return;
-
+  if (currentState === AppState.READY) {
+    // AUTO MODE
+    console.log("Begin AUTO destruction");
+    sendStart([]); // ← ESP decides
     currentState = AppState.RUNNING;
-    console.log("Begin destruction");
-  },
+    return;
+  }
+
+  if (currentState === AppState.SELECT) {
+    const stones = selection.getSelectedStones();
+
+    if (stones.length === 0) {
+      console.warn("No stones selected");
+      return;
+    }
+
+    console.log("Begin SELECT destruction", stones);
+    sendStart(stones); // ← user-selected stones
+
+    selection.disable(); // lock selection
+    gui.showSelectPanel(false);
+    currentState = AppState.RUNNING;
+  }
+}
+,
 
  onModeChange(isSelect) {
   if (isSelect) {
     currentState = AppState.SELECT;
-    selection.enable();                 
-    gui.showSelectPanel?.(true);        
+    selection.enable();
+    gui.showSelectPanel(true);
     cameraHelper.goTo("INSPECT", jenga.root);
   } else {
-    currentState = AppState.RUNNING;
-    selection.disable();                
-    selection.clear();                  
-    gui.showSelectPanel?.(false);       
+    currentState = AppState.READY;
+    selection.disable();
+    selection.clear();
+    gui.showSelectPanel(false);
     cameraHelper.goTo("READY", jenga.root);
   }
 },
+
 
   onResetDemo() {
   robotMotion.stopAll();
