@@ -88,7 +88,9 @@ const gui = createGUI(scene, camera, jenga, {
   // AUTO mode (no selection needed)
   if (currentState === AppState.READY) {
     console.log("Begin AUTO destruction");
-    sendStart([]); 
+    sendStart({
+      mode: "AUTO"
+    }); 
     currentState = AppState.RUNNING;
     startLogPolling();
 
@@ -120,7 +122,7 @@ const gui = createGUI(scene, camera, jenga, {
 
     selection.disable();
     gui.showSelectPanel(false);
-    currentState = AppState.RUNNING;
+    currentState = AppState.READY;
     startLogPolling();
 
   }
@@ -136,7 +138,7 @@ const gui = createGUI(scene, camera, jenga, {
   switch(mode) {
 
     case "AUTO":
-      currentState = "AUTO";
+      currentState = AppState.RUNNING;
       cameraHelper.goTo("READY", jenga.root);
       break;
 
