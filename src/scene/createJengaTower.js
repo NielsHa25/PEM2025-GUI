@@ -31,7 +31,7 @@ export function createJengaTower(scene, shadowGenerator, options = {}) {
     const isRotated = layer % 2 === 1;
 
     for (let i = 0; i < 3; i++) {
-      const block = baseBlock.clone(`block_${layer-1}_${3-i}`);
+      const block = baseBlock.clone(`block_${layer-1}_${i+1}`);
       // Shadows
         
 
