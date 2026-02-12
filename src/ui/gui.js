@@ -18,9 +18,13 @@ titleRoot.isVisible = true; // visible during DEMO
 ui.addControl(titleRoot);
 
 const statusPanel = new BABYLON.GUI.StackPanel();
-statusPanel.width = "600px";
+statusPanel.width = "1200px";
 statusPanel.isVertical = true;
 statusPanel.spacing = 6;
+statusPanel.adaptHeightToChildren = true;  // 🔥 add this
+
+
+
 
 
 // ===============================
@@ -185,39 +189,51 @@ statusTitle.fontWeight = "800"; // bold
 statusTitle.color = "black";
 statusTitle.height = "80px";
 statusTitle.textHorizontalAlignment =
-  BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_LEFT;
+  BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_CENTER;
 
 statusPanel.addControl(statusTitle);
 
-// -------------------------------
-// CONNECTION STATE
-// -------------------------------
-const statusConnection = new BABYLON.GUI.TextBlock();
-statusConnection.text = "DISCONNECTED 〇";
-statusConnection.fontFamily = "JetBrains Mono, monospace";
-statusConnection.fontSize = 60;
-statusConnection.fontWeight = "400"; // light
-statusConnection.color = "#C0392B"; // red
-statusConnection.height = "80px";
-statusConnection.textHorizontalAlignment =
+// ===============================
+// ROBOT LOG PANEL (top-left)
+// ===============================
+
+const logPanel = new BABYLON.GUI.StackPanel();
+logPanel.width = "1800px";
+logPanel.isVertical = true;
+logPanel.spacing = 4;
+
+logPanel.horizontalAlignment =
   BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_LEFT;
 
-statusPanel.addControl(statusConnection);
+logPanel.verticalAlignment =
+  BABYLON.GUI.Control.VERTICAL_ALIGNMENT_TOP;
 
-// -------------------------------
-// PING
-// -------------------------------
-const statusPing = new BABYLON.GUI.TextBlock();
-statusPing.text = "PING: -- ms";
-statusPing.fontFamily = "JetBrains Mono, monospace";
-statusPing.fontSize = 50;
-statusPing.fontWeight = "400";
-statusPing.color = "#555";
-statusPing.height = "70px";
-statusPing.textHorizontalAlignment =
-  BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_LEFT;
+logPanel.background = "rgba(0,0,0,0.7)";
+logPanel.thickness = 0;
+logPanel.isVisible = true;
+logPanel.zIndex = 0; // ensure it appears above other elements
 
-statusPanel.addControl(statusPing);
+
+statusPanel.addControl(logPanel);
+
+
+const logLines = [];
+
+for (let i = 0; i < 8; i++) {
+
+  const line = new BABYLON.GUI.TextBlock();
+  line.text = "";
+  line.fontFamily = "JetBrains Mono";
+  line.fontSize = 32;
+  line.color = "#00FF88";
+  line.height = "40px";
+  line.textHorizontalAlignment =
+    BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_LEFT;
+
+  logPanel.addControl(line);
+  logLines.push(line);
+}
+
 
 
   // ===============================
@@ -335,8 +351,8 @@ modeBtn.onPointerEnterObservable.add(() => {
 modeBtn.onPointerOutObservable.add(() => {
   modeBtn.background = "transparent";
 });
-
 controlContent.addControl(modeBtn);
+
 
 
   
@@ -403,7 +419,36 @@ window.addEventListener("resize", () => {
   // ===============================
   // STATE
   // ===============================
-  let isSelectMode = false;
+  const modes = ["AUTO", "SCAN+FEEL+SHOOT", "SCAN+SHOOT", "SHOOT-ONLY", "MOVE-ONLY"];
+let currentModeIndex = 0;
+const modeStyles = {
+  "AUTO": {
+    background: "rgba(46, 204, 113, 0.25)",   // green
+    color: "#145A32"
+  },
+  "SCAN+FEEL+SHOOT": {
+    background: "rgba(52, 152, 219, 0.25)",   // blue
+    color: "#154360"
+  },
+  "SCAN+SHOOT": {
+    background: "rgba(155, 89, 182, 0.25)",   // purple
+    color: "#4A235A"
+  },
+  "SHOOT-ONLY": {
+    background: "rgba(231, 76, 60, 0.25)",    // red
+    color: "#641E16"
+  },
+  "MOVE-ONLY": {
+    background: "rgba(241, 196, 15, 0.25)",   // yellow
+    color: "#7D6608"
+  }
+};
+
+const initialStyle = modeStyles[modes[0]];
+modeBtn.background = initialStyle.background;
+modeBtn.color = initialStyle.color;
+
+
 
   // ===============================
   // EVENTS
@@ -412,11 +457,23 @@ window.addEventListener("resize", () => {
     callbacks.onBegin?.();
   });
 
-  modeBtn.onPointerUpObservable.add(() => {
-    isSelectMode = !isSelectMode;
-    modeBtn.textBlock.text = `Mode: ${isSelectMode ? "SELECT" : "AUTO"}`;
-    callbacks.onModeChange?.(isSelectMode);
-  });
+ modeBtn.onPointerUpObservable.add(() => {
+  currentModeIndex = (currentModeIndex + 1) % modes.length;
+  const mode = modes[currentModeIndex];
+
+  modeBtn.textBlock.text = `MODE: ${mode}`;
+
+  // 🎨 Apply color style
+  const style = modeStyles[mode];
+  if (style) {
+    modeBtn.background = style.background;
+    modeBtn.color = style.color;
+  }
+
+  callbacks.onModeChange?.(mode);
+});
+
+
 
   resetBtn.onPointerUpObservable.add(() => {
   callbacks.onResetDemo?.();
@@ -527,15 +584,29 @@ function setStatus(connected, ping) {
     `PING: ${ping != null ? ping + " ms" : "-- ms"}`;
 }
 
+function showLogs(show) {
+  logPanel.isVisible = show;
+}
+
+function setLogs(lines) {
+  for (let i = 0; i < logLines.length; i++) {
+    logLines[i].text = lines[i] || "";
+  }
+}
+
+
 
 
   return {
-    show,
-    hide,
-    setStatus,
-    showSelectPanel,
-    setHoveredBlock,
-    setSelectedCount,
-    setSelectedList
-  };
+  show,
+  hide,
+  setStatus,
+  showSelectPanel,
+  setHoveredBlock,
+  setSelectedCount,
+  setSelectedList,
+  showLogs,
+  setLogs
+};
+
 }

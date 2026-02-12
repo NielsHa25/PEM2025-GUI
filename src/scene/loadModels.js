@@ -1,3 +1,7 @@
+
+
+
+
 export async function loadRobot(scene, materials, shadowGenerator) {
   const result = await BABYLON.SceneLoader.ImportMeshAsync(
     "",

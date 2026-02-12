@@ -11,6 +11,20 @@ import { enableJengaSelection } from "./scene/jengaSelection.js";
 import { sendStart } from "./net/esp32.js";
 
 
+
+const ESP_IP = "http://192.168.4.1";
+let logInterval = null;
+
+function startLogPolling() {
+  logInterval = setInterval(async () => {
+    const res = await fetch(`${ESP_IP}/logs`);
+    const data = await res.json();
+    gui.setLogs(data.logs || []);
+  }, 500);
+}
+
+
+
 // Architecture
 
 const AppState = {
@@ -69,15 +83,26 @@ const selection = enableJengaSelection(
 // --- GUI ---
 const gui = createGUI(scene, camera, jenga, {
   onBegin() {
+  
+
+  // AUTO mode (no selection needed)
   if (currentState === AppState.READY) {
-    // AUTO MODE
     console.log("Begin AUTO destruction");
-    sendStart([]); // ← ESP decides
+    sendStart([]); 
     currentState = AppState.RUNNING;
+    startLogPolling();
+
     return;
   }
 
-  if (currentState === AppState.SELECT) {
+  // All modes that require selected stones
+  if (
+    currentState === "SCAN+FEEL+SHOOT" ||
+    currentState === "SCAN+SHOOT" ||
+    currentState === "SHOOT-ONLY" ||
+    currentState === "MOVE-ONLY"
+  ) {
+
     const stones = selection.getSelectedStones();
 
     if (stones.length === 0) {
@@ -85,31 +110,68 @@ const gui = createGUI(scene, camera, jenga, {
       return;
     }
 
-    console.log("Begin SELECT destruction", stones);
-    sendStart(stones); // ← user-selected stones
+    console.log(`Begin ${currentState}`, stones);
 
-    selection.disable(); // lock selection
+    // 🔥 Send mode + stones to ESP
+    sendStart({
+      mode: currentState,
+      stones: stones
+    });
+
+    selection.disable();
     gui.showSelectPanel(false);
     currentState = AppState.RUNNING;
+    startLogPolling();
+
   }
 }
 ,
 
- onModeChange(isSelect) {
-  if (isSelect) {
-    currentState = AppState.SELECT;
-    selection.enable();
-    gui.showSelectPanel(true);
-    cameraHelper.goTo("INSPECT", jenga.root);
-  } else {
-    currentState = AppState.READY;
-    selection.disable();
-    selection.clear();
-    gui.showSelectPanel(false);
-    cameraHelper.goTo("READY", jenga.root);
+ onModeChange(mode) {
+
+  selection.disable();
+  selection.clear();
+  gui.showSelectPanel(false);
+
+  switch(mode) {
+
+    case "AUTO":
+      currentState = "AUTO";
+      cameraHelper.goTo("READY", jenga.root);
+      break;
+
+    case "SCAN+FEEL+SHOOT":
+      currentState = "SCAN+FEEL+SHOOT";
+      selection.enable();
+      gui.showSelectPanel(true);
+      cameraHelper.goTo("INSPECT", jenga.root);
+      break;
+
+    case "SCAN+SHOOT":
+      selection.clear();
+      selection.enable();
+      gui.showSelectPanel(true);
+      currentState = "SCAN+SHOOT";
+      cameraHelper.goTo("INSPECT", jenga.root);
+      break;
+
+    case "SHOOT-ONLY":
+      selection.clear();
+      selection.enable();
+      gui.showSelectPanel(true);
+      currentState = "SHOOT-ONLY";
+      cameraHelper.goTo("INSPECT", jenga.root);
+      break;
+
+    case "MOVE-ONLY":
+      selection.clear();
+      selection.enable();
+      gui.showSelectPanel(true);
+      currentState = "MOVE-ONLY";
+      cameraHelper.goTo("INSPECT", jenga.root);
+      break;
   }
 },
-
 
   onResetDemo() {
   robotMotion.stopAll();
