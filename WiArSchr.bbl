@@ -1,0 +1,199 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{montinari_first_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=30d8b719b1c624e0d8ac212eae76c56b}{%
+           family={Montinari},
+           familyi={M\bibinitperiod},
+           given={Maria\bibnamedelima Rosa},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e94f65ae3ada2dbcd867c6afd755c18c}{%
+           family={Minelli},
+           familyi={M\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e559c3a45126767192ea1a28429a27b4}
+      \strng{fullhash}{e559c3a45126767192ea1a28429a27b4}
+      \strng{fullhashraw}{e559c3a45126767192ea1a28429a27b4}
+      \strng{bibnamehash}{e559c3a45126767192ea1a28429a27b4}
+      \strng{authorbibnamehash}{e559c3a45126767192ea1a28429a27b4}
+      \strng{authornamehash}{e559c3a45126767192ea1a28429a27b4}
+      \strng{authorfullhash}{e559c3a45126767192ea1a28429a27b4}
+      \strng{authorfullhashraw}{e559c3a45126767192ea1a28429a27b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cardiac auscultation – even with its limitations – is still a valid and economical technique for the diagnosis of cardiovascular diseases, and despite the growing demand for sophisticated imaging techniques, clinical use of the stethoscope in medical practice has not yet been abandoned. In 1816, René-Théophile-Hyacinthe Laënnec invented the stethoscope, while examining a young woman with suspected heart disease, giving rise to mediated auscultation. He described in detail several heart and lung sounds, correlating them with postmortem pathology. Even today, a correct interpretation of heart sounds, integrated with the clinical history and physical examination, allows to detect properly most of the structural heart abnormalities or to evaluate them in a differential diagnosis. However, the lack of organic teaching of auscultation and its inadequate practice have a negative impact on the clinical competence of physicians in training, also reflecting a diminished academic interest in physical semiotic. Medical simulation could be an effective instructional tool in teaching and deepening auscultation. Handheld ultrasound devices could be used for screening or for integrating and improving auscultatory abilities of physicians; the electronic stethoscope, with its new digital capabilities, will help to achieve a correct diagnosis. The availability of innovative representations of the sounds with phono- and spectrograms provides an important aid in diagnosis, in teaching practice and pedagogy. Technological innovations, despite their undoubted value, must complement and not supplant a complete physical examination; clinical auscultation remains an important and cost-effective screening method for the physicians in cardiorespiratory diagnosis. Cardiac auscultation has a future, and the stethoscope has not yet become a medical heirloom.}
+      \field{day}{6}
+      \field{issn}{1178-2390}
+      \field{journaltitle}{Journal of Multidisciplinary Healthcare}
+      \field{month}{3}
+      \field{shortjournal}{J Multidiscip Healthc}
+      \field{title}{The first 200 years of cardiac auscultation and future perspectives}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{183\bibrangedash 189}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.2147/JMDH.S193904
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\KBH3RWCI\\Montinari and Minelli - 2019 - The first 200 years of cardiac auscultation and future perspectives.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6408918/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6408918/
+      \endverb
+    \endentry
+    \entry{debbal_computerized_2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=29d16fb798eedf927f62546759bd9578}{%
+           family={Debbal},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=876702820ff7411368c18ead80cbfcfb}{%
+           family={Bereksi-Reguig},
+           familyi={B\bibinithyphendelim R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{144720fc44c07d3b370325d19b572feb}
+      \strng{fullhash}{144720fc44c07d3b370325d19b572feb}
+      \strng{fullhashraw}{144720fc44c07d3b370325d19b572feb}
+      \strng{bibnamehash}{144720fc44c07d3b370325d19b572feb}
+      \strng{authorbibnamehash}{144720fc44c07d3b370325d19b572feb}
+      \strng{authornamehash}{144720fc44c07d3b370325d19b572feb}
+      \strng{authorfullhash}{144720fc44c07d3b370325d19b572feb}
+      \strng{authorfullhashraw}{144720fc44c07d3b370325d19b572feb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper is concerned with a synthesis study of the fast Fourier transform ({FFT}), the short-time Fourier transform ({STFT}), the Wigner distribution ({WD}) and the wavelet transform ({WT}) in analysing the phonocardiogram signal ({PCG}). It is shown that these transforms provide enough features of the {PCG} signals that will help clinics to obtain qualitative and quantitative measurements of the time–frequency ({TF}) {PCG} signal characteristics and consequently aid diagnosis. Similarly, it is shown that the frequency content of such a signal can be determined by the {FFT} without difficulties. The studied techniques ({FT}, {STFT}, {WD}, {CWT}, {DWT} and {PWT}) of analysis can thus be regarded as complementary in the {TF} analysis of the {PCG} signal; each will relate to a part distinct from the analysis in question.}
+      \field{day}{1}
+      \field{issn}{0010-4825}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Computers in Biology and Medicine}
+      \field{title}{Computerized heart sounds analysis}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{38}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{263\bibrangedash 280}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.compbiomed.2007.09.006
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\5HTXFV2W\\Debbal and Bereksi-Reguig - 2008 - Computerized heart sounds analysis.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\niels\\Zotero\\storage\\AEFIEB4W\\S0010482507001771.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482507001771
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482507001771
+      \endverb
+      \keyw{{FFT},Phonocardiogram,Signal analysis,Signal processing,Sounds,{STFT},Time–frequency analysis,{WD},{WT}}
+    \endentry
+    \entry{li_review_2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c4434defec9a468dc79eef43897ed7f7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Suyi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=70b703bc521622b129c9f47aa9731dbe}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Shijie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8e2aaf1865ad940b4ddcc94e13920a81}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wenji},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f265334ed221c20e9949c97b33d0426}
+      \strng{fullhash}{4b4076781b3a02adfdbf854d8743fd67}
+      \strng{fullhashraw}{4b4076781b3a02adfdbf854d8743fd67}
+      \strng{bibnamehash}{4b4076781b3a02adfdbf854d8743fd67}
+      \strng{authorbibnamehash}{4b4076781b3a02adfdbf854d8743fd67}
+      \strng{authornamehash}{2f265334ed221c20e9949c97b33d0426}
+      \strng{authorfullhash}{4b4076781b3a02adfdbf854d8743fd67}
+      \strng{authorfullhashraw}{4b4076781b3a02adfdbf854d8743fd67}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cardiovascular diseases have become one of the most prevalent threats to human health throughout the world. As a noninvasive assistant diagnostic tool, the heart sound detection techniques play an important role in the prediction of cardiovascular diseases. In this paper, the latest development of the computer-aided heart sound detection techniques over the last five years has been reviewed. There are mainly the following aspects: the theories of heart sounds and the relationship between heart sounds and cardiovascular diseases; the key technologies used in the processing and analysis of heart sound signals, including denoising, segmentation, feature extraction and classification; with emphasis, the applications of deep learning algorithm in heart sound processing. In the end, some areas for future research in computer-aided heart sound detection techniques are explored, hoping to provide reference to the prediction of cardiovascular diseases.}
+      \field{issn}{2314-6141}
+      \field{journaltitle}{{BioMed} Research International}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1155/2020/5846191}
+      \field{number}{1}
+      \field{title}{A Review of Computer-Aided Heart Sound Detection Techniques}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5846191}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2020/5846191
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\9LXUYLQI\\Li et al. - 2020 - A Review of Computer-Aided Heart Sound Detection Techniques.pdf:application/pdf;Snapshot:C\:\\Users\\niels\\Zotero\\storage\\2DIZSDME\\5846191.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2020/5846191
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2020/5846191
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

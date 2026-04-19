@@ -1,0 +1,194 @@
+%% This is file `DEMO-TUDaThesis.tex' version 3.28 (2022/11/15),
+%% it is part of
+%% TUDa-CI -- Corporate Design for TU Darmstadt
+%% ----------------------------------------------------------------------------
+%%
+%%  Copyright (C) 2018--2022 by Marei Peischl <marei@peitex.de>
+%%
+%% ============================================================================
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3c
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%% http://www.latex-project.org/lppl.txt
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2008/05/04 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainers of this work are
+%%   Marei Peischl <tuda-ci@peitex.de>
+%%   Markus Lazanowski <latex@ce.tu-darmstadt.de>
+%%
+%% The development respository can be found at
+%% https://github.com/tudace/tuda_latex_templates
+%% Please use the issue tracker for feedback!
+%%
+%% If you need a compiled version of this document, have a look at
+%% http://mirror.ctan.org/macros/latex/contrib/tuda-ci/doc
+%% or at the documentation directory of this package (if installed)
+%% <path to your LaTeX distribution>/doc/latex/tuda-ci
+%% ============================================================================
+%%
+% !TeX program = lualatex
+%%
+
+\documentclass[
+	ngerman,
+	ruledheaders=section,%Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
+	class=report,% Basisdokumentenklasse. Wählt die Korrespondierende KOMA-Script Klasse
+	thesis={type=report},% Dokumententyp Thesis, für Dissertationen siehe die Demo-Datei DEMO-TUDaPhd
+	accentcolor=1c,% Auswahl der Akzentfarbe
+	custommargins=false,% Ränder werden mithilfe von typearea automatisch berechnet
+	marginpar=false,% Kopfzeile und Fußzeile erstrecken sich nicht über die Randnotizspalte
+	BCOR=5mm,%Bindekorrektur, falls notwendig
+	parskip=half-,%Absatzkennzeichnung durch Abstand vgl. KOMA-Script
+	fontsize=11pt,%Basisschriftgröße laut Corporate Design ist mit 9pt häufig zu klein
+%	logofile=example-image, %Falls die Logo Dateien nicht vorliegen
+]{tudapub}
+
+
+% Der folgende Block ist nur bei pdfTeX auf Versionen vor April 2018 notwendig
+\usepackage{iftex}
+\ifPDFTeX
+	\usepackage[utf8]{inputenc}%kompatibilität mit TeX Versionen vor April 2018
+\fi
+
+%%%%%%%%%%%%%%%%%%%
+%Sprachanpassung & Verbesserte Trennregeln
+%%%%%%%%%%%%%%%%%%%
+\usepackage[english, main=english]{babel}
+\usepackage[autostyle]{csquotes}% Anführungszeichen vereinfacht
+
+% Falls mit pdflatex kompiliert wird, wird microtype automatisch geladen, in diesem Fall muss diese Zeile entfernt werden, und falls weiter Optionen hinzugefügt werden sollen, muss dies über
+% \PassOptionsToPackage{Optionen}{microtype}
+% vor \documentclass hinzugefügt werden.
+\usepackage{microtype}
+
+%%%%%%%%%%%%%%%%%%%
+%Literaturverzeichnis
+%%%%%%%%%%%%%%%%%%%
+\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}   % Literaturverzeichnis
+\addbibresource{references.bib}
+
+
+%%%%%%%%%%%%%%%%%%%
+%Paketvorschläge Tabellen
+%%%%%%%%%%%%%%%%%%%
+%\usepackage{array}     % Basispaket für Tabellenkonfiguration, wird von den folgenden automatisch geladen
+\usepackage{tabularx}   % Tabellen, die sich automatisch der Breite anpassen
+%\usepackage{longtable} % Mehrseitige Tabellen
+%\usepackage{xltabular} % Mehrseitige Tabellen mit anpassbarer Breite
+\usepackage{booktabs}   % Verbesserte Möglichkeiten für Tabellenlayout über horizontale Linien
+
+%%%%%%%%%%%%%%%%%%%
+%Paketvorschläge Mathematik
+%%%%%%%%%%%%%%%%%%%
+%\usepackage{mathtools} % erweiterte Fassung von amsmath
+%\usepackage{amssymb}   % erweiterter Zeichensatz
+\usepackage{siunitx}   % Einheiten
+
+%Formatierungen für Beispiele in diesem Dokument. Im Allgemeinen nicht notwendig!
+\let\file\texttt
+\let\code\texttt
+\let\tbs\textbackslash
+\let\pck\textsf
+\let\cls\textsf
+
+\usepackage{pifont}% Zapf-Dingbats Symbole
+\newcommand*{\FeatureTrue}{\ding{52}}
+\newcommand*{\FeatureFalse}{\ding{56}}
+
+\begin{document}
+
+\Metadata{
+	title=Exploration of Acoustic Body
+Signals and Their Detectability
+Using 3D-Printed Ferroelectret
+Sensors,
+	author=Niels Haßler,
+}
+
+\title{Exploration of Acoustic Body
+Signals and Their Detectability
+Using 3D-Printed Ferroelectret
+Sensors
+}
+\subtitle{A Study on Signal Origins, Frequency Ranges, and Comparison with Existing Measurement
+Approaches}
+\author[N. Haßler]{Niels Haßler}%optionales Argument ist die Signatur,
+\birthplace{Geburtsort}%Geburtsort, bei Dissertationen zwingend notwendig
+\reviewer{Stephan Schaumann \and Julian Seiler }%Gutachter
+
+%Diese Felder werden untereinander auf der Titelseite platziert.
+%\department ist eine notwendige Angabe, siehe auch dem Abschnitt `Abweichung von den Vorgaben für die Titelseite'
+\department{etit} % Das Kürzel wird automatisch ersetzt und als Studienfach gewählt, siehe Liste der Kürzel im Dokument.
+\group{Measurement and Sensor Technology Group}
+
+\submissiondate{\today}
+\examdate{\today}
+
+% Hinweis zur Lizenz:
+% TUDa-CI verwendet momentan die Lizenz CC BY-NC-ND 2.0 DE als Voreinstellung.
+% Die TU Darmstadt hat jedoch die Empfehlung von dieser auf die liberalere
+% CC BY 4.0 geändert. Diese erlaubt eine Verwendung bearbeiteter Versionen und
+% die kommerzielle Nutzung.
+% TUDa-CI wird im nächsten größeren Release ebenfalls diese Anpassung vornehmen.
+% Aus diesem Grund wird empfohlen die Lizenz manuell auszuwählen.
+%\tuprints{urn=XXXXX,printid=XXXX,year=2022,license=cc-by-4.0}
+% To see further information on the license option in English, remove the license= key and pay attention to the warning & help message.
+
+% \dedication{Für alle, die \TeX{} nutzen.}
+
+
+
+\tableofcontents
+
+\chapter{Introduction}
+The human body emits acoustic signals that can provide valuable insights into a vast array of physiological
+and pathological processes. Ranging from the rhytmic beating of the heart to subtle sounds produced
+by the respiratory system and gastrointestinal tract or high frequency hits in joints, these signals offer a
+non-invasive window into the body’s inner workings. Auscultation as one of the oldest diagnostic techniques,
+has been used since the days of Hippocrates (c.460 - c.370 BC) to assess the health of patients by listening
+to their internal sounds \cite{montinari_first_2019}. With the advent of modern sensor technology and advanced signal processing
+techniques the analysis of acoustic body signals has exceeded far beyond the capabilities of the traditional
+stethoscope and limited human hearing.
+This work explores the origins of various acoustic body signals and their respective spectrums. Providing
+excerpts of the physiological processes that generate these sounds and how they can be used for diagnostic
+analysis.
+In the second part of this work, an overview of in use and emerging sensor technologies for acoustic
+emissions is given, focusing on their working principles and frequency ranges. Lastly, the detectability of
+acoustically emitted signals using 3D-printed ferroelectret sensors is discussed and compared to existing
+measurement approaches.
+\chapter{Origin of Acoustic Body Signals}
+\section{Cardiac and Vascular Sounds}
+In a regular cardioc cycle the human heart emits sounds during two dominant events named the First Heart
+Sound (S1) and Second Heart Sound (S2)\cite{debbal_computerized_2008}. S1 is generated by the closure
+of the mitral and triscupid valves at the onset of systole, while S2 stems from the halting of the aortic
+and pulmnoary valves at the end of systole. In time-domain, S1 correspond to the QRS complex of the
+electrocardiogram (ECG) and S2 to the T-wave. Using Phonocardiography
+(PCG) the acoustic signals of the heart can be recorded and analyzed for diagnostic purposes. A normal
+PCG signal has a frequency content in the range of \SIrange{40}{200}{\hertz} \ \cite{li_review_2020}. S1 emits
+.
+\section{Respiratory Sounds}
+
+\section{Gastrointestinal Sounds}
+
+\section{Joints and Tendons}
+
+\chapter{Sensor Types}
+\section{Low Frequency Sensors}
+\subsection{Seismographic Sensors}
+\section{High Frequency Sensors}
+\subsection{Piezoelectric Sensors}
+\section{Ferroelectret Sensors }
+\chapter{Discussion}
+
+
+
+\chapter{conclusion}
+
+
+\printbibliography
+
+\end{document}

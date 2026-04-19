@@ -1,0 +1,16 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Origin of Acoustic Body Signals}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cardiac and Vascular Sounds}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Respiratory Sounds}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Gastrointestinal Sounds}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Joints and Tendons}{3}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Sensor Types}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Low Frequency Sensors}{4}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Seismographic Sensors}{4}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}High Frequency Sensors}{4}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Piezoelectric Sensors}{4}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Ferroelectret Sensors}{4}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Discussion}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {5}conclusion}{6}{chapter.5}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
