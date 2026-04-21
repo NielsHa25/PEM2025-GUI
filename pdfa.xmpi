@@ -62,8 +62,8 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> 
    <dc:format>application/pdf</dc:format> 
-   <dc:title><rdf:Alt><rdf:li xml:lang="x-default">TUDaThesis - Abschlussarbeiten im CD der TU Darmstadt</rdf:li></rdf:Alt></dc:title>
-   <dc:creator><rdf:Seq><rdf:li>Marei Peischl</rdf:li></rdf:Seq></dc:creator>
+   <dc:title><rdf:Alt><rdf:li xml:lang="x-default">Exploration of Acoustic Body Signals and Their Detectability Using 3D-Printed Ferroelectret Sensors</rdf:li></rdf:Alt></dc:title>
+   <dc:creator><rdf:Seq><rdf:li>Niels Haßler</rdf:li></rdf:Seq></dc:creator>
    <dc:publisher><rdf:Bag><rdf:li>TU Darmstadt</rdf:li></rdf:Bag></dc:publisher>
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/"> 
@@ -76,15 +76,15 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
    <xmp:CreatorTool>LaTeX using TUDa-CI</xmp:CreatorTool> 
-   <xmp:ModifyDate>2026-04-19T18:46:52+02:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2026-04-19T18:46:52+02:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2026-04-19T18:46:52+02:00</xmp:MetadataDate> 
+   <xmp:ModifyDate>2026-04-21T14:47:53+02:00</xmp:ModifyDate> 
+   <xmp:CreateDate>2026-04-21T14:47:53+02:00</xmp:CreateDate> 
+   <xmp:MetadataDate>2026-04-21T14:47:53+02:00</xmp:MetadataDate> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
    <xmpMM:DocumentID>uuid:9A8AC602-CF71-40DD-EF6B-75C0BBC40A0A</xmpMM:DocumentID> 
-   <xmpMM:InstanceID>uuid:A606ADFA-7EDB-8D53-1FC8-BD1138B28EE6</xmpMM:InstanceID> 
+   <xmpMM:InstanceID>uuid:108BC0B7-69C1-1880-E3C7-65568A949FB8</xmpMM:InstanceID> 
   </rdf:Description> 
  </rdf:RDF> 
 </x:xmpmeta> 

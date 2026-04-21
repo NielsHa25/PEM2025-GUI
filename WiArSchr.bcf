@@ -2377,6 +2377,29 @@
     <bcf:citekey order="1" intorder="1">montinari_first_2019</bcf:citekey>
     <bcf:citekey order="2" intorder="1">debbal_computerized_2008</bcf:citekey>
     <bcf:citekey order="3" intorder="1">li_review_2020</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">debbal_computerized_2008</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">li_review_2020</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">debbal_computerized_2008</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">li_review_2020</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">chan_haemodynamic_2013</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">ren_novel_2018</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">kirkeeide_wall_1977</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">khalili_spectral_2021</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">ranta_digestive_2010-2</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">dimoulas_bowel-sound_2008</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">ranta_digestive_2010-2</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">andres_respiratory_2018</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">pasterkamp_respiratory_1997</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">pasterkamp_respiratory_1997</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">mahagnah_gas_1995</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">pasterkamp_respiratory_1997</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">pasterkamp_respiratory_1997</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">whittingslow_acoustic_2020</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">shark_discovering_2010</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">whittingslow_acoustic_2020</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">jeong_b-value_2018</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">jeong_b-value_2018</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">shark_discovering_2010</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
