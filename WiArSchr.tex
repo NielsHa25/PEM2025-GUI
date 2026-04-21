@@ -161,6 +161,7 @@ has been used since the days of Hippocrates (c.460 - c.370 BC) to assess the hea
 to their internal sounds \cite{montinari_first_2019}. With the advent of modern sensor technology and advanced signal processing
 techniques the analysis of acoustic body signals has exceeded far beyond the capabilities of the traditional
 stethoscope and limited human hearing.
+\\Differentiation of Acoustic body signals from force myography and mechanomyography 
 This work explores the origins of various acoustic body signals and their respective spectrums. Providing
 excerpts of the physiological processes that generate these sounds and how they can be used for diagnostic
 analysis.
@@ -168,6 +169,9 @@ In the second part of this work, an overview of in use and emerging sensor techn
 emissions is given, focusing on their working principles and frequency ranges. Lastly, the detectability of
 acoustically emitted signals using 3D-printed ferroelectret sensors is discussed and compared to existing
 measurement approaches.
+
+
+
 \chapter{Origins of Acoustic Body Signals}
 In this chapter the origins of acoustic body signals are explored. A focus on cardiac and vascular sounds is given first. 
 Next gastrointestinal and respariratory sounds are discussed. Finally, acoustic emissions from joints, tendons and muscles are covered.
@@ -187,19 +191,19 @@ Clinical practice has revealed a total of 5 positions on the chest wall where so
 \centering
 \begin{subfigure}[t]{0.4\textwidth}
 \centering
-\includegraphics[width=\linewidth]{images/image.png}
+\includegraphics[width=\linewidth]{images/HeartValves.pdf}
 \caption{}
 \label{fig:left}
 \end{subfigure}
 \hfill
 \begin{subfigure}[t]{0.4\textwidth}
 \centering
-\includegraphics[width=\linewidth]{images/image.png}
-\caption{ 1: Aortic valve, 2: Pulmonary valve, 3: Tricuspid valve, 4: Mitral valve, 5: Erb's point}
+\includegraphics[width=\linewidth]{images/Cardiac auscultation points.pdf}
+\caption{ 1: Aortic valve, 2: Pulmonary valve, 3: Erb's point, 4: Tricuspid valve, 5: Mitral valv}
 \label{fig:right}
 \end{subfigure}
 \label{fig:double}
-\caption{(a) Valves of the human heart  and (b) Cardiac auscultation points on the chest wall}
+\caption{(a) Valves of the human heart  and (b) Cardiac auscultation points on the chest wall. \\\footnotesize{Icons from biorender.com}}
 \end{figure}
 
 Using Phonocardiography (PCG) the acoustic signals of the heart can be recorded and analyzed for diagnostic purposes. In the time-domain, S1 correspond to the QRS complex of the electrocardiogram (ECG) and S2 to the T-wave. 
@@ -236,7 +240,7 @@ The frequency content of these sounds is typically in the range of \SIrange{100}
 
 \section{Gastrointestinal Sounds}
 Phonoenterography (PEN) is the recording and analyis of acoustic signals produced by the gastrointestinal (GI) tract. 
-Healthy PEN signals consist of a continous isolated and short events in a frequency range of up to \SI{1500}{\hertz}  with the majority of energy located between \SIrange{50}{2500}{\hertz} \cite{ranta_digestive_2010-2}.
+Healthy PEN signals consist of a continous isolated and short events in a frequency range of up to \SI{1500}{\hertz}  with the majority of energy located between \SIrange{50}{250}{\hertz} \cite{ranta_digestive_2010-2}.
 \\Two approaches exist for interpreting PEN signals. The first is based on the analysis of the indivual sounds and their categorisation \cite{dimoulas_bowel-sound_2008}.
 The second approach is based on the analysis of the overall acoustic activity, like mean sound duration, silence between
 sounds duration, signal energy etc. The weighted combination of these features form the Acoustic Activity Index (AAI) \cite{ranta_digestive_2010-2}.
@@ -245,7 +249,7 @@ Using the AII, the digestive activity of the GI tract can be assessed and thus u
 \section{Respiratory Sounds}
 The respiratory cycle consist of two main phases - inspiration and expiration. Normal adults breathe 16-20 Times per minute. 
 A healthy lung produces sounds during both phases. In inspiration sound is generated through turbulent flow in the lobar and segemental airways, in expiration sound arises from more central airways. 
-Frequency ranges from \SIrange{50}{2500}{\hertz} \cite{andres_respiratory_2018}, with the majority of energy in the range of \SIrange{50}{2500}{\hertz}\cite{pasterkamp_respiratory_1997}.
+Frequency ranges from \SIrange{50}{2500}{\hertz} \cite{andres_respiratory_2018}, with the majority of energy in the range of \SIrange{50}{500}{\hertz}\cite{pasterkamp_respiratory_1997}.
 
 When deciding on sensor position for the detection of respiratory sounds, it is important to consider that the primary pathway for transmitted sound changes with frequency \cite{pasterkamp_respiratory_1997}.
 Lung parenchyma and tissue act as a low-pass filter and direct coupling to the chest wall is dominant. Thus transmission below 300Hz provides information mostly on lung parenchyma or thoracic cavity. 
@@ -304,9 +308,20 @@ In the context of joints, the coefficient b describes the decrease in the number
 
 
 \section{Muscle Sounds}
+\section{Overview}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{images/overviewSpectra.pdf}
+\caption{Overview of the frequency spectrum of acoustic signals. \footnotesize{Icons from biorender.com}}
+\label{fig:overviewSpectra}
+\end{figure}
+
+
+
 
 \chapter{Sensor Types}
-A typical AE monitoring system (Fig. 1, top) takes its input from an AE sensor that converts dynamic surface motion into electric signals [6]. 
+A typical AE monitoring system  takes its input from an AE sensor that converts dynamic surface motion into electric signals . 
 Due to the low amplitude of AE signals and the high impedance of piezoelectric sensors, the amplification is usually carried out in two steps, firstly by the pre-amplifier and subsequently by the main amplifier. Band pass filters are also employed to eliminate unwanted noise, such as sensor and electrical circuit noise, electromagnetic interference, background and technological acoustics noise. 
 \section{Low Frequency Sensors}
 \subsection{Seismographic Sensors}
