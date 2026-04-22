@@ -611,6 +611,89 @@
       \endverb
       \keyw{Abdominal vibration,Bioacoustics,Bowel sounds,Multi-layer perceptron,Neural network,Pattern classification,Pattern recognition,Wavelet}
     \endentry
+    \entry{mallegni_sensing_2022}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=71aa5a04eff3b6969caf2e2698a11dbb}{%
+           family={Mallegni},
+           familyi={M\bibinitperiod},
+           given={Norma},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4dc58cae6eaae9edd49bb3ae4a97c156}{%
+           family={Molinari},
+           familyi={M\bibinitperiod},
+           given={Giovanna},
+           giveni={G\bibinitperiod}}}%
+        {{hash=58aedb3a7437cd594c23ccd4a2a42853}{%
+           family={Ricci},
+           familyi={R\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=019c7ce09d53bf600fe3c4cb93dd4ea9}{%
+           family={Lazzeri},
+           familyi={L\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=90614ca8b9394339951d808bb358fdcf}{%
+           family={La\bibnamedelima Rosa},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d6946f46fbbae666595f0e897b285d92}{%
+           family={Crivello},
+           familyi={C\bibinitperiod},
+           given={Antonino},
+           giveni={A\bibinitperiod}}}%
+        {{hash=77f2e26af795c56106ada9a250349fd5}{%
+           family={Milazzo},
+           familyi={M\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{7fff3c79a58349a1f9d991939950bfb3}
+      \strng{fullhash}{7c85a0a576ad14fb4b18abfe7aed4a25}
+      \strng{fullhashraw}{7c85a0a576ad14fb4b18abfe7aed4a25}
+      \strng{bibnamehash}{7fff3c79a58349a1f9d991939950bfb3}
+      \strng{authorbibnamehash}{7fff3c79a58349a1f9d991939950bfb3}
+      \strng{authornamehash}{7fff3c79a58349a1f9d991939950bfb3}
+      \strng{authorfullhash}{7c85a0a576ad14fb4b18abfe7aed4a25}
+      \strng{authorfullhashraw}{7c85a0a576ad14fb4b18abfe7aed4a25}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Acoustic signals are important markers to monitor physiological and pathological conditions, e.g., heart and respiratory sounds. The employment of traditional devices, such as stethoscopes, has been progressively superseded by new miniaturized devices, usually identified as microelectromechanical systems ({MEMS}). These tools are able to better detect the vibrational content of acoustic signals in order to provide a more reliable description of their features (e.g., amplitude, frequency bandwidth). Starting from the description of the structure and working principles of {MEMS}, we provide a review of their emerging applications in the healthcare field, discussing the advantages and limitations of each framework. Finally, we deliver a discussion on the lessons learned from the literature, and the open questions and challenges in the field that the scientific community must address in the near future.}
+      \field{issn}{2079-6374}
+      \field{journaltitle}{Biosensors}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Sensing Devices for Detecting and Processing Acoustic Signals in Healthcare}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{835}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bios12100835
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\IVFFHIVI\\Mallegni et al. - 2022 - Sensing Devices for Detecting and Processing Acoustic Signals in Healthcare.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-6374/12/10/835
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-6374/12/10/835
+      \endverb
+      \keyw{healthcare,accelerometers,acoustic signals,{MEMS},monitoring}
+    \endentry
     \entry{andres_respiratory_2018}{article}{}{}
       \name{author}{5}{}{%
         {{hash=a9845725496b92e526bd3bf6c08f9b69}{%
@@ -778,7 +861,544 @@
       \verb{doi}
       \verb 10.1152/jappl.1995.78.3.928
       \endverb
-      \keyw{Adult,Gases,Humans,Lung,Male,Models,Biological,Reference Values,Respiratory Sounds,Thorax,Time Factors,Trachea}
+      \keyw{Humans,Thorax,Adult,Gases,Lung,Male,Models,Biological,Reference Values,Respiratory Sounds,Time Factors,Trachea}
+    \endentry
+    \entry{whittingslow_acoustic_2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=639a2106014de0f39cd0e7d7966a762e}{%
+           family={Whittingslow},
+           familyi={W\bibinitperiod},
+           given={Daniel.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=316f6a25437d3b081e566fbf4c1b151e}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Hyeon-Ki},
+           giveni={H\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=733132e6ce4f04a76f5ff2cdefaa8537}{%
+           family={Ganti},
+           familyi={G\bibinitperiod},
+           given={Venu\bibnamedelima G.},
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=32911a623fc7c07499150e2e472b86f6}{%
+           family={Kirkpatrick},
+           familyi={K\bibinitperiod},
+           given={Nathan\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c981848dfc8f0704dfd2dbce38598920}{%
+           family={Kogler},
+           familyi={K\bibinitperiod},
+           given={Geza\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=5e4c5464c87afbc7e47824af4519b906}{%
+           family={Inan},
+           familyi={I\bibinitperiod},
+           given={Omer\bibnamedelima T.},
+           giveni={O\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{60d6170a3c05882d56041649ab556e93}
+      \strng{fullhash}{4de04c22037f83ebdbe263ecfd57106c}
+      \strng{fullhashraw}{4de04c22037f83ebdbe263ecfd57106c}
+      \strng{bibnamehash}{4de04c22037f83ebdbe263ecfd57106c}
+      \strng{authorbibnamehash}{4de04c22037f83ebdbe263ecfd57106c}
+      \strng{authornamehash}{60d6170a3c05882d56041649ab556e93}
+      \strng{authorfullhash}{4de04c22037f83ebdbe263ecfd57106c}
+      \strng{authorfullhashraw}{4de04c22037f83ebdbe263ecfd57106c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The longitudinal assessment of joint health is a long-standing issue in the management of musculoskeletal injuries. The acoustic emissions ({AEs}) produced by joint articulation could serve as a biomarker for joint health assessment, but their use has been limited by a lack of mechanistic understanding of their creation. In this paper, we investigate that mechanism using an injury model in human lower-limb cadavers, and relate {AEs} to joint kinematics. Using our custom joint sound recording system, we recorded the {AEs} from 9 cadaver legs in four stages: at baseline, after a sham surgery, after a meniscus tear, and post-meniscectomy. We compare the resulting {AEs} using their b-values. We then compare joint anatomy/kinematics to the {AEs} using the x-ray reconstruction of moving morphology ({XROMM}) technique. After the meniscus tear the number and amplitude of the {AE} peaks greatly increased from baseline and sham (b-value =1.33±0.15; p{<}0.05). The {XROMM} analysis showed a close correlation between the minimal inter-joint distances (0.251±0.082 cm during extension, 0.265±.003 during flexion, at 145°) and a large increase in the {AEs}. This work provides key insight into the nature of joint {AEs}, and details a novel technique and analysis for recording and interpreting these biosignals.}
+      \field{issn}{0090-6964}
+      \field{journaltitle}{Annals of biomedical engineering}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Ann Biomed Eng}
+      \field{title}{Acoustic Emissions as a Non-Invasive Biomarker of the Structural Health of the Knee}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{48}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{225\bibrangedash 235}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s10439-019-02333-x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\AM2GEQ3M\\Whittingslow et al. - 2020 - Acoustic Emissions as a Non-Invasive Biomarker of the Structural Health of the Knee.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6930345/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC6930345/
+      \endverb
+    \endentry
+    \entry{shark_discovering_2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b1c10ef5e14dd1c47eddb331484d6a33}{%
+           family={Shark},
+           familyi={S\bibinitperiod},
+           given={Lik-Kwan},
+           giveni={L\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=e73d87c3dc6e45ba362c0582ddecaf82}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hongzhi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=89866f4be01daecce35d5eb36d69b8e8}{%
+           family={Goodacre},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b0cae5d061df21d62b1d754dc13d79f}
+      \strng{fullhash}{0f9fa56e51e69078553ef5701c967d81}
+      \strng{fullhashraw}{0f9fa56e51e69078553ef5701c967d81}
+      \strng{bibnamehash}{0f9fa56e51e69078553ef5701c967d81}
+      \strng{authorbibnamehash}{0f9fa56e51e69078553ef5701c967d81}
+      \strng{authornamehash}{7b0cae5d061df21d62b1d754dc13d79f}
+      \strng{authorfullhash}{0f9fa56e51e69078553ef5701c967d81}
+      \strng{authorfullhashraw}{0f9fa56e51e69078553ef5701c967d81}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By performing repeated sit-stand-sit movements to create stress on knee joints, short transient bursts of high frequency acoustic emission ({AE}) released by the knee joints were acquired from two age matched groups consisting of healthy and osteoarthritic ({OA}) knees, and significant differences between these two groups were discovered from the signal analysis performed. The analysis is based on a four-phase model of sit-stand-sit movements and a two-feature descriptor of {AE} bursts. The four phases are derived from joint angle measurement during movement, and they consist of the ascending-acceleration and ascending-deceleration phases in the sit-to-stand movement, followed by the descending-acceleration and descending-deceleration phases in the stand-to-sit movement. The two features are extracted from {AE} measurement during movement, and they consist of the peak magnitude value and average signal level of each {AE} burst. The proposed analysis method is shown to provide a high sensitivity for differentiation of the two age matched healthy and {OA} groups, with the most significant difference found to come from the peak magnitude value in the ascending-deceleration phase, clear quantity and strength differences in the image based visual display of their {AE} feature profiles due to substantially more {AE} bursts from {OA} knee joints with higher peak magnitude values and higher average signal levels, and two well separated clusters in the space formed by the principal components. These results provide ample support for further development of {AE} as a novel tool to facilitate dynamic integrity assessment of knee joints in clinic and home settings.}
+      \field{day}{27}
+      \field{issn}{1874-4311}
+      \field{journaltitle}{The Open Medical Informatics Journal}
+      \field{month}{7}
+      \field{shortjournal}{Open Med Inform J}
+      \field{title}{Discovering Differences in Acoustic Emission Between Healthy and Osteoarthritic Knees Using a Four-Phase Model of Sit-Stand-Sit Movements}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{4}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{116\bibrangedash 125}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2174/1874431101004010116
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\G9HAH4JQ\\Shark et al. - 2010 - Discovering Differences in Acoustic Emission Between Healthy and Osteoarthritic Knees Using a Four-P.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3048332/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC3048332/
+      \endverb
+    \endentry
+    \entry{jeong_b-value_2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=fd8671a6cfe788a7b9ce4aeb8a6d8e65}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Hyeon\bibnamedelima Ki},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4fd40a0239f92049a95822845912a80e}{%
+           family={Whittingslow},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5e4c5464c87afbc7e47824af4519b906}{%
+           family={Inan},
+           familyi={I\bibinitperiod},
+           given={Omer\bibnamedelima T.},
+           giveni={O\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d8e3a41cccfe640557546f87ac4fee8}
+      \strng{fullhash}{c2d6ba6ac9758453c66eb991e1fe97ea}
+      \strng{fullhashraw}{c2d6ba6ac9758453c66eb991e1fe97ea}
+      \strng{bibnamehash}{c2d6ba6ac9758453c66eb991e1fe97ea}
+      \strng{authorbibnamehash}{c2d6ba6ac9758453c66eb991e1fe97ea}
+      \strng{authornamehash}{5d8e3a41cccfe640557546f87ac4fee8}
+      \strng{authorfullhash}{c2d6ba6ac9758453c66eb991e1fe97ea}
+      \strng{authorfullhashraw}{c2d6ba6ac9758453c66eb991e1fe97ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article explores the novel application of an automated b-value extraction algorithm for the interpretation of sounds produced by the knee joint during movement. Acoustical emissions were recorded from a total of eight subjects with acute knee injuries a first time, within one week of the injury, then a second time, four to six months following corrective surgery and rehabilitation. The data were collected from each subject using miniature electret microphones placed on the medial and lateral sides of the patella during knee flexion and extension exercises. From the acoustical signals measured from each subject, we computed the b-value using the modified Gutenberg–Richter equation, which is widely used in seismology. The b-value increased for each subject's injured knee from immediately following the injury to several months post recovery. [mean b-value: 1.46 ± 0.35 (injured) and 1.92 ± 0.21 (postsurgery and recovery), p {<} 0.01]. In addition, we compared this analysis technique against an unsupervised machine learning algorithm from our previous work and found that the b-value metric can be as effective to differentiate changes in the joint sounds as our prior approach while requiring less computational time and complexity—both of which are preferable for future integration of this technology into a wearable system.}
+      \field{issn}{2475-1472}
+      \field{journaltitle}{{IEEE} Sensors Letters}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shorttitle}{b-Value}
+      \field{title}{b-Value: A Potential Biomarker for Assessing Knee-Joint Health Using Acoustical Emission Sensing}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{2}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/LSENS.2018.2871981
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\QF69W5SB\\Jeong et al. - 2018 - b-Value A Potential Biomarker for Assessing Knee-Joint Health Using Acoustical Emission Sensing.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8471187
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8471187
+      \endverb
+      \keyw{Acoustic measurements,acoustical emissions,b -value,Biomarkers,Biomedical monitoring,Injuries,Knee,knee health,Sensors signal processing,wearable sensing,Wearable sensors}
+    \endentry
+    \entry{ali_piezoelectric_2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=060b0bf3703470982e7a94179e9a01eb}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Washim\bibnamedelima Reza},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5a423efa804e8385edb2c34574fd2df3}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={Mahanth},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb3741a71462bf408d8b957ebce30310}
+      \strng{fullhash}{eb3741a71462bf408d8b957ebce30310}
+      \strng{fullhashraw}{eb3741a71462bf408d8b957ebce30310}
+      \strng{bibnamehash}{eb3741a71462bf408d8b957ebce30310}
+      \strng{authorbibnamehash}{eb3741a71462bf408d8b957ebce30310}
+      \strng{authornamehash}{eb3741a71462bf408d8b957ebce30310}
+      \strng{authorfullhash}{eb3741a71462bf408d8b957ebce30310}
+      \strng{authorfullhashraw}{eb3741a71462bf408d8b957ebce30310}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper discusses piezoelectric acoustic devices based on widely used piezoelectric materials. Commonly used piezoelectric thin film deposition techniques and the influence of process parameters on the growth, texture and orientation of the films are discussed. Etching techniques are also outlined. A comparative study of different devices developed previously is given. Also, applications of developed devices in aero-acoustic and medical fields have been briefly discussed. Flow charts of various techniques of deposition along with a combined one for full acoustic device fabrication are given. Various techniques, frequently used for thin film characterization have been discussed. The testing and measurement techniques to determine the responses of acoustic devices such as sensitivity, resonance frequency, frequency response, piezoelectric co-efficient etc. have been briefly illustrated. This paper discusses common failure modes with respect to the field of use of acoustic devices. It also concisely discusses various reliability tests done in industries to assess the quality of the developed devices. This review has also suggested directions for future development of thin film acoustic sensors.}
+      \field{day}{1}
+      \field{issn}{0924-4247}
+      \field{journaltitle}{Sensors and Actuators A: Physical}
+      \field{month}{1}
+      \field{shortjournal}{Sensors and Actuators A: Physical}
+      \field{shorttitle}{Piezoelectric {MEMS} based acoustic sensors}
+      \field{title}{Piezoelectric {MEMS} based acoustic sensors: A review}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{301}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{111756}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.sna.2019.111756
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\H8LQP4MX\\Ali and Prasad - 2020 - Piezoelectric MEMS based acoustic sensors A review.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\niels\\Zotero\\storage\\E8H647F7\\S0924424719314189.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0924424719314189
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0924424719314189
+      \endverb
+      \keyw{Acoustic sensor,Piezoelectric,Characterization,Reliability,Sol-gel,Sputtering,Testing}
+    \endentry
+    \entry{kong_advances_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e072a2d2859921acc74c2aa219ae531c}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Fanhao},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5b8954c35dd19adb884bc06dc4c6fd71}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d66f3a0f86630be044b947ff84a2ffb2}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhou},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=bdfec0c000f29b7bf26070e292e38e6e}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yulin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{e586f234fb4a1ab54baf15b07b0ce704}
+      \strng{fullhash}{3ee21fce5778031f61f4b85678c1e7f2}
+      \strng{fullhashraw}{3ee21fce5778031f61f4b85678c1e7f2}
+      \strng{bibnamehash}{3ee21fce5778031f61f4b85678c1e7f2}
+      \strng{authorbibnamehash}{3ee21fce5778031f61f4b85678c1e7f2}
+      \strng{authornamehash}{e586f234fb4a1ab54baf15b07b0ce704}
+      \strng{authorfullhash}{3ee21fce5778031f61f4b85678c1e7f2}
+      \strng{authorfullhashraw}{3ee21fce5778031f61f4b85678c1e7f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The practice of auscultation, interpreting body sounds to assess organ health, has greatly benefited from technological advancements in sensing and electronics. The advent of portable and wearable acoustic sensing devices marks a significant milestone in telemedicine, home health, and clinical diagnostics. This review summarises the contemporary advancements in acoustic sensing devices, categorized based on varied sensing principles, including capacitive, piezoelectric, and triboelectric mechanisms. Some representative acoustic sensing devices are introduced from the perspective of portability and wearability. Additionally, the characteristics of sound signals from different human organs and practical applications of acoustic sensing devices are exemplified. Challenges and prospective trends in portable and wearable acoustic sensors are also discussed, providing insights into future research directions.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{16}
+      \field{title}{Advances in Portable and Wearable Acoustic Sensing Devices for Human Health Monitoring}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5354}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s24165354
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\7EHNUXIL\\Kong et al. - 2024 - Advances in Portable and Wearable Acoustic Sensing Devices for Human Health Monitoring.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/24/16/5354
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/24/16/5354
+      \endverb
+      \keyw{acoustic sensors,clinical diagnosis,health monitoring,portable and wearable}
+    \endentry
+    \entry{fraden_acoustic_2010}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=e76d46be5d7ee9722f07829c42358f70}{%
+           family={Fraden},
+           familyi={F\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e76d46be5d7ee9722f07829c42358f70}{%
+           family={Fraden},
+           familyi={F\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, {NY}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{fullhash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{fullhashraw}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{bibnamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorbibnamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authornamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorfullhash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{authorfullhashraw}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{editorbibnamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{editornamehash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{editorfullhash}{e76d46be5d7ee9722f07829c42358f70}
+      \strng{editorfullhashraw}{e76d46be5d7ee9722f07829c42358f70}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The fundamentals of acoustics are given in Sect. 3.10. Here we will discuss the acoustic sensors for various frequency ranges. The audible range sensors are generally called the microphones, however, the name is often used even for the ultrasonic and infrasonic waves. In essence, a microphone is a pressure transducer adapted for transduction of sound waves over a broad spectral range, which generally excludes very low frequencies below few Hz. The microphones differ by their sensitivity, directional characteristics, frequency bandwidth, dynamic range, sizes, etc. Also, their designs are quite different depending on the media from which sound waves are sensed. For example, for perception of air waves or vibrations in solids, the sensor is called a microphone, while for operation in liquids, it is called a hydrophone (even if liquid is not water – from the Greek name of the mythological water serpent Hydra). The main difference between a pressure sensor and an acoustic sensor is that latter does not need to measure constant or very slow changing pressures. Its operating frequency range usually starts at several hertz (or as low as tens of millihertz for some applications), while the upper operating frequency limit is quite high – up to several megahertz for the ultrasonic applications and even gigahertz in a surface acoustic wave ({SAW}) device.}
+      \field{booktitle}{Handbook of Modern Sensors: Physics, Designs, and Applications}
+      \field{isbn}{978-1-4419-6466-3}
+      \field{langid}{english}
+      \field{title}{Acoustic Sensors}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{431\bibrangedash 443}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-1-4419-6466-3_12
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\L7JJQ6ZT\\Fraden - 2010 - Acoustic Sensors.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4419-6466-3_12
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4419-6466-3_12
+      \endverb
+      \keyw{Acoustic Sensor,Condenser Microphone,Operating Frequency Range,Sound Wave,Surface Acoustic Wave}
+    \endentry
+    \entry{xiong_principle_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a804665008926a0d9d7e04425585f29b}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d9b9b279fc5525af9b92bad1c9ceef43}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7bb2d83991df51fab82e334ba89d1132}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcfa669c7d960584abd5893a0e8d53b6}
+      \strng{fullhash}{1b742c83e203c5afef126d55a1f22188}
+      \strng{fullhashraw}{1b742c83e203c5afef126d55a1f22188}
+      \strng{bibnamehash}{1b742c83e203c5afef126d55a1f22188}
+      \strng{authorbibnamehash}{1b742c83e203c5afef126d55a1f22188}
+      \strng{authornamehash}{fcfa669c7d960584abd5893a0e8d53b6}
+      \strng{authorfullhash}{1b742c83e203c5afef126d55a1f22188}
+      \strng{authorfullhashraw}{1b742c83e203c5afef126d55a1f22188}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nowadays, flexible sensors, especially flexible pressure sensors, have been widely used in wearable electronics to monitor human motion and health. With the booming development of Internet of Things ({IoT}) and the increasing importance of energy sustainability, triboelectric pressure sensors ({TPSs}) provide a powerful approach for wearable healthcare owing to its lightweight, easy manufacture, high sensitivity and self-powered properties. In this review, we introduce the sensing mechanisms and the mainly structure mode of representative {TPSs}. Then we examine the various electrode materials, fabrication techniques and surface microstructure strategies for manufacture {TPSs} in recent years. Finally, we highlight the application of triboelectric sensors used in wearable electronics and discuss the future research directions of {TPSs}. This paper could provide a comprehensive review and promising direction for self-powered wearable devices in human motion monitoring, health monitoring and human-machine interaction.}
+      \field{day}{1}
+      \field{issn}{2211-2855}
+      \field{journaltitle}{Nano Energy}
+      \field{month}{8}
+      \field{shortjournal}{Nano Energy}
+      \field{title}{Principle and recent progress of triboelectric pressure sensors for wearable applications}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{113}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{108542}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.nanoen.2023.108542
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\7CSS3VM9\\Xiong et al. - 2023 - Principle and recent progress of triboelectric pressure sensors for wearable applications.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\niels\\Zotero\\storage\\JN3DAD8U\\S2211285523003798.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2211285523003798
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2211285523003798
+      \endverb
+      \keyw{Microstructures,Multifunctional sensing,Triboelectric pressure sensors,Wearable electronics}
+    \endentry
+    \entry{tao_principles_2025}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=7d8662c614478cf2aa6cdbf05fd3ec91}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e8e8ccab8addf192292303ceecc47c23}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianyu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=14e1c73d3274ef76888cec4278b20bb4}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jiale},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba3a2c95529da519ce3f4dd6e56a82f2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Teng},
+           giveni={T\bibinitperiod}}}%
+        {{hash=07bb34c010ee4c11d2bd6cf47d0ef704}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e421cb6d9bdd3504d6616a15f44409b2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Haoliang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f45c62057cfd3732b2904f1b1ed2f966}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Litao},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2fa5e99834b87770e8a672787d5015c5}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Hongbo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ec9dc7e666340951d9b64f07cb87b025}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=17a2583f81fc6c5339385472bd9123e9}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Jingdong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac08f16056354ebaa6e812d1b85ceb05}
+      \strng{fullhash}{f11674d8cf8e93a7b5d2153dd6911c57}
+      \strng{fullhashraw}{f11674d8cf8e93a7b5d2153dd6911c57}
+      \strng{bibnamehash}{ac08f16056354ebaa6e812d1b85ceb05}
+      \strng{authorbibnamehash}{ac08f16056354ebaa6e812d1b85ceb05}
+      \strng{authornamehash}{ac08f16056354ebaa6e812d1b85ceb05}
+      \strng{authorfullhash}{f11674d8cf8e93a7b5d2153dd6911c57}
+      \strng{authorfullhashraw}{f11674d8cf8e93a7b5d2153dd6911c57}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As research on triboelectric nanogenerators ({TENGs}) continues to advance, their applications are becoming increasingly diverse and sophisticated. This paper aims to provide future researchers with a concise yet comprehensive understanding of the four fundamental operational principles of {TENGs}, enabling them to fully appreciate the unique characteristics and application scenarios of each mode. In doing so, researchers can make informed and well-grounded choices in selecting the most suitable operational mode for exploration and innovation, tailored to their specific fields and requirements. Furthermore, this paper aligns closely with the current research frontiers and development trends of {TENGs} by systematically reviewing the literature and analyzing recent developments in the field from three key perspectives: the expansion of application domains, innovations in structural design, and optimizations in material properties. Through this multidimensional framework, it not only highlights the broad potential and practical prospects of {TENGs} but also uncovers the latest advancements and future directions in technological breakthroughs and performance enhancement.}
+      \field{day}{30}
+      \field{issn}{2072-666X}
+      \field{journaltitle}{Micromachines}
+      \field{month}{9}
+      \field{number}{10}
+      \field{shortjournal}{Micromachines (Basel)}
+      \field{shorttitle}{Principles of Operation and Application Extensions of Triboelectric Nanogenerators}
+      \field{title}{Principles of Operation and Application Extensions of Triboelectric Nanogenerators: Structure and Material Optimization}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1127}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/mi16101127
+      \endverb
+      \verb{file}
+      \verb Full Text:C\:\\Users\\niels\\Zotero\\storage\\AM35P8QU\\Tao et al. - 2025 - Principles of Operation and Application Extensions of Triboelectric Nanogenerators Structure and Ma.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12566278/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC12566278/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

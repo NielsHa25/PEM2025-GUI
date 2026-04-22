@@ -185,7 +185,7 @@ of the mitral and triscupid valves at the onset of systole, while S2 stems from 
 and pulmonary valves forcing a sudden deceleration of blood flow in the aorta and pulmonary artery, at the end of systole \cite{li_review_2020,debbal_computerized_2008}. 
 Both actions form vibrations on the entire cardiac structure and surrounding tissues, which can then be detected as acoustic signals on the chest wall. 
 Clinical practice has revealed a total of 5 positions on the chest wall where sounds can be best auscultated. 
-\\
+
 
 \begin{figure}[H]
 \centering
@@ -208,7 +208,7 @@ Clinical practice has revealed a total of 5 positions on the chest wall where so
 
 Using Phonocardiography (PCG) the acoustic signals of the heart can be recorded and analyzed for diagnostic purposes. In the time-domain, S1 correspond to the QRS complex of the electrocardiogram (ECG) and S2 to the T-wave. 
 A normal PCG signal has a frequency content in the range of \SIrange{40}{200}{\hertz} \ \cite{li_review_2020}. S1 typically lasts around \SIrange{50}{100}{m\second} with a power spectrum in the range of \SIrange{50}{150}{\hertz}. 
-S2 is shorter, lasting around \SIrange{25}{50}{m\second} and has a higher frequency content in the range of \SIrange{50}{200}{\hertz}, which is expected as less blood is present in the cardiac chambers. 
+S2 is shorter, lasting around \SIrange{25}{50}{m\second} and has a higher frequency content in the range of \SIrange{50}{200}{\hertz}, which is expected as less blood is present in the cardiac chambers. The normal duration of systole is about \SI{350}{m\second} and that of diastole is \SI{450}{m\second} .
 
 \begin{figure}[H]
 \centering
@@ -230,13 +230,14 @@ S2 is shorter, lasting around \SIrange{25}{50}{m\second} and has a higher freque
 
 \end{figure}
 
-The spectral shape of S1 and S2 are influenced by body surface area, sex and blood pressure, ventricular mass and thus may change due to disease \cite{li_review_2020,chan_haemodynamic_2013}.
+The spectral shape of S1 and S2 are influenced by body surface area, sex and blood pressure and ventricular mass. The frequency composition of S1 and S2 in combination with their temporal distance are valuable indicators for various cardiac diseases (Ventricular contractility and atrioventricular valve function, myocarditis, cardiomyopathy, myocardial infarction or heart failure disease).  \cite{li_review_2020,chan_haemodynamic_2013}.
 Furthermore in pathologocial conditions additional heart sounds may be observed, such as the Third and Fourth Heart Sound (S3 and S4) or high frequency murmurs ranging from \SIrange{600}{1000}{\hertz} \cite{ren_novel_2018}.
 \\\\
-Diseases in the vascular system can too produce acoustic signals. 
+Diseases in the vascular system too produce acoustic signals. 
 Turbulent blood flow in arteries caused by stenosis, aneurysms or arteriovenous malformations cause high pressure fluctuations in the post-stenotic region. 
 Through the interaction of the vessel wall with the fluctuating blood flow, vibrations are generated and transmitted to the body surface \cite{kirkeeide_wall_1977}.
 The frequency content of these sounds is typically in the range of \SIrange{100}{300}{\hertz}, more severe stenosis (>70\%) can produce sounds up to \SI{1000}{\hertz} \cite{khalili_spectral_2021}.
+Merely the existence of these sounds can be used for diagnostic purposes, but also their spectral content can be used to estimate the degree of stenosis \cite{khalili_spectral_2021}.
 
 \section{Gastrointestinal Sounds}
 Phonoenterography (PEN) is the recording and analyis of acoustic signals produced by the gastrointestinal (GI) tract. 
@@ -245,6 +246,8 @@ Healthy PEN signals consist of a continous isolated and short events in a freque
 The second approach is based on the analysis of the overall acoustic activity, like mean sound duration, silence between
 sounds duration, signal energy etc. The weighted combination of these features form the Acoustic Activity Index (AAI) \cite{ranta_digestive_2010-2}.
 Using the AII, the digestive activity of the GI tract can be assessed and thus used for diagnostic purposes and long term monitoring.
+\cite{mallegni_sensing_2022} for example showed that AII can correlate physiological measures with motility or meal instances allowing diabetic patients real time consumption data. 
+
 
 \section{Respiratory Sounds}
 The respiratory cycle consist of two main phases - inspiration and expiration. Normal adults breathe 16-20 Times per minute. 
@@ -274,15 +277,15 @@ Higher frequencies take the airway lumen route \cite{mahagnah_gas_1995} and are 
 The additional graphs using Heliox show the parenchymal pathway is not affected by the change in gas density as sound is conveyed through the tissue.}
 \end{figure}
 
-Pathological conditions can produce additional sounds as listed in Table \ref{tab:resp_sounds}.
+Pathological conditions can produce additional adventitious sounds as listed in Table \ref{tab:resp_sounds}.
 \input{tables/respiratory_sounds}
 
 \section{Joints and Tendons}
 Acoustic Emission (AE) of joints under load is widely considered to be a natural phenomenon \cite{whittingslow_acoustic_2020}. 
-As Emissions are generated by the movement of the joint surfaces, this dynamic approach is the main advandtage over static mode examinations such as MRI or Ultrasound and can be correlated to joint angle and load.
-By means of placing a sensor on the skin over bony prominence acoustic signals can be detected. 
-Signals are generated by the interaction of the articular surfaces, ligaments and tendons and range up to \SI{500}{k\hertz} \cite{shark_discovering_2010}
-\\In order to analyze the AE signal, it is common to to describe individual hits. A hit is defined as a transient, burst like event satisfying a set of definition parameters. 
+As Emissions are generated by the movement of the joint surfaces, this dynamic approach is the main advantage over static mode examinations such as MRI or Ultrasound andthus can be correlated to joint angle and load.
+By means of placing a sensor on the skin over bony prominence and moving the joint, for example by carrying out a sit-stand-sit maneuver, acoustic signals can be detected. \cite{shark_discovering_2010} 
+AE Signals are generated by the interaction of the articular surfaces, ligaments and tendons. They consist of burst-type acoustic events with frequency components reaching up to \SI{500}{k\hertz} \cite{shark_discovering_2010}. 
+\\In order to analyze the AE signal, it is common to to describe hits. A hit is defined as a transient, burst like event satisfying a set of definition parameters. 
 The most commonly used parameters are the amplitude, duration and frequency content of the hit \cite{whittingslow_acoustic_2020}. A graphic overview is given in Fig. \ref{fig:AEhit}.
 \begin{figure}
 \centering
@@ -312,8 +315,8 @@ In the context of joints, the coefficient b describes the decrease in the number
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{images/overviewSpectra.pdf}
-\caption{Overview of the frequency spectrum of acoustic signals. \footnotesize{Icons from biorender.com}}
+\includegraphics[width=1\textwidth]{images/overviewSpectra.pdf}
+\caption{Overview of the frequency spectrum of acoustic signals. \\\footnotesize{Icons from biorender.com}}
 \label{fig:overviewSpectra}
 \end{figure}
 
@@ -321,13 +324,78 @@ In the context of joints, the coefficient b describes the decrease in the number
 
 
 \chapter{Sensor Types}
-A typical AE monitoring system  takes its input from an AE sensor that converts dynamic surface motion into electric signals . 
-Due to the low amplitude of AE signals and the high impedance of piezoelectric sensors, the amplification is usually carried out in two steps, firstly by the pre-amplifier and subsequently by the main amplifier. Band pass filters are also employed to eliminate unwanted noise, such as sensor and electrical circuit noise, electromagnetic interference, background and technological acoustics noise. 
-\section{Low Frequency Sensors}
-\subsection{Seismographic Sensors}
-\section{High Frequency Sensors}
-\subsection{Piezoelectric Sensors}
-\section{Ferroelectret Sensors }
+Due to the high acoustical impedance mitsmatch between fluid-like skin and air only a small portion of the 
+acoustical energy is transmitted into the air, while the majority is reflected back into the body tissue. 
+For this reason, many sensors are direct coupled to the skin, where they can detect the vibrations of the body surface with greater sensitivity.
+
+\section{Seismographic accelerometers Sensors}
+\section{Piezoelectric Sensors}
+Piezoelectric (PE) sensors take advantage of the piezoelectric effect, which is the ability of certan materials to generate an electric charge in response to impact, vibrations and pressure. 
+External forces on a PE material causes deformation and displacement of charge centers within the material resulting in polarization. 
+By connecting electrodes on the surfaces of a piezoelectric material a sensor is built. A schematic of a PE sensor can be seen in Fig. \ref{fig:sensorOverview} (d).
+Adjusting the thickness, shape or size allows for strucutral reconfiguration and a highly adjustable device that can be tailored to application speficic requirements. 
+ Thus PE sensors can be designed to detect frequencies from  \SI{20}{k\hertz} up to several M\SI{}{\hertz} \cite{ali_piezoelectric_2020}
+
+\section{Capacitive Sensors}
+Capacitive Transducers operate on the principle of capacitance change and are among the most widely used acoustic sensor. They are often optimized for the human auditive spectrum in the range of 20Hz to 20kHz.
+As can be seen in Fig \ref{fig:sensorOverview} (a) the sensor consist of a fixed backplate and a flexible diaphragm, which form a capacitor. 
+When an acoustic wave deflects the diaphragm, the distance between the two plates changes, leading to a change in capacitance. 
+As the charge is constant, the voltage across the capacitor changes and can be measured \cite{kong_advances_2024}
+To provide constant charge on the electrode, a bias voltage is applied. 
+
+As an evolution of the capacitive microphone, Electret Condenser Microphones have a permanently polarized dielectric (electret) embedded in the diaphragm, eliminating the need for an external bias voltage.
+Electret-Condenser Microphones can be designed to detect frequencies from \SI{e-3}{\hertz} up to several \SI{100}{M\hertz} \cite{fraden_acoustic_2010}
+A schematic of the electret microphone can be seen in Fig. \ref{fig:sensorOverview} (b).
+\subsection{Triboelectric Sensors}
+Triboelectric sensors are based on the triboelectric nanogenerator effect (TRENG) \cite{xiong_principle_2023} enabling direct conversion of mechanimal stimuli such as 
+friction, vibration or deformation to electrical signal without external powering. 
+Different topologies such as vertical contact-separation, single electrode, or lateral sliding mode exist \cite{xiong_principle_2023}.
+The vertical contact-separation mode is the most commonly used topolgy and can be seen in Fig. \ref{fig:sensorOverview}(c).
+The sensor consist of two different materials with different triboelectric properties and dielectric constants $\varepsilon_{1}$ and $\varepsilon_{2}$ and thicknesses $d_1$ and $d_2$. 
+As soon as contact between the materials is established charge transfer occurs and a charge density $\sigma_c$ is generated on the surface. 
+When the materials are separated by a distance $z$, an electric field $E_z$ is generated in the gap, which can be calculated using Gauss's law.
+
+\begin{equation}
+    E_Z = \frac{\sigma_1(z, t)}{\epsilon_1} \text{ and } E_z = \frac{\sigma_1(z, t)}{\epsilon_2} 
+\end{equation}
+
+The relative voltage difference between the two electrodes can then be calculated as follows:
+
+\begin{equation}
+ V = \sigma_1(z,t) \left( \frac{d_1}{\varepsilon_1} + \frac{d_2}{\varepsilon_2} + \frac{z[\sigma_1(z,t) - \sigma_c	]}{\varepsilon_0} \right)
+\end{equation}
+
+Under short-circuit condition, $V = 0$,
+\begin{equation}
+\sigma_1(z,t) = \frac{z\sigma_c}{d_1\varepsilon_0/\varepsilon_1 + d_2\varepsilon_0/\varepsilon_2 + z}
+\label{eq:shortCircuit}
+\end{equation}
+
+The displacement current density can then be obtained by applying Ampere's law on \eqref{eq:shortCircuit} 
+\begin{equation}
+J_D = \frac{\partial D_z}{\partial t} = \frac{\partial \sigma_1(z,t)}{\partial t}
+\end{equation} 
+\cite{tao_principles_2025}
+
+TENG sensors have been used in a wide range of medical sensing applications 
+
+
+\section{Air Borne Microphone Sounds}
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{images/sensors-24-05354-g001.png}
+\caption{Types of acoustic sensors. (a) Schematic diagram of capacitive microphone. (b) Schematic diagram of the electret microphone. (c) Schematic diagram of piezoelectric sensor. (d) Schematic diagram of triboelectric sensor. Taken from \cite{kong_advances_2024}}
+\label{fig:sensorOverview}
+\end{figure}
+
+\section{3D-printed Ferroelectret Sensors}
+Ferroelectric Materials exhibit piezoelectic like properties such as that they convert mechanical signals (strain/displacement - stress/force) into electric signals (elctrical discharge or Voltage). 
+Unlike traditional piezoelectric materials with contain intrinsic dipolar units, electrets by definition are dielectric materials which can store electrical charge / polarization quasipermanently \cite{sessler_physical_1987}.
+Typical materials are polymers such as polypropylene or fluorpolymers that contain microscopic air-filled voids. 
+After fabrication a high voltage chargin process deposits charges on the inner surface of voids which then behave like a dipole.
+The resulting sensor can be designed to have a high sensitivity and a wide frequency response, making them suitable for detecting a wide range of acoustic signals. 
+\chapter{New Measurement Approaches}
+
 \chapter{Discussion}
 
 
