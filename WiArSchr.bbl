@@ -1213,8 +1213,8 @@
       \strng{editornamehash}{e76d46be5d7ee9722f07829c42358f70}
       \strng{editorfullhash}{e76d46be5d7ee9722f07829c42358f70}
       \strng{editorfullhashraw}{e76d46be5d7ee9722f07829c42358f70}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The fundamentals of acoustics are given in Sect. 3.10. Here we will discuss the acoustic sensors for various frequency ranges. The audible range sensors are generally called the microphones, however, the name is often used even for the ultrasonic and infrasonic waves. In essence, a microphone is a pressure transducer adapted for transduction of sound waves over a broad spectral range, which generally excludes very low frequencies below few Hz. The microphones differ by their sensitivity, directional characteristics, frequency bandwidth, dynamic range, sizes, etc. Also, their designs are quite different depending on the media from which sound waves are sensed. For example, for perception of air waves or vibrations in solids, the sensor is called a microphone, while for operation in liquids, it is called a hydrophone (even if liquid is not water – from the Greek name of the mythological water serpent Hydra). The main difference between a pressure sensor and an acoustic sensor is that latter does not need to measure constant or very slow changing pressures. Its operating frequency range usually starts at several hertz (or as low as tens of millihertz for some applications), while the upper operating frequency limit is quite high – up to several megahertz for the ultrasonic applications and even gigahertz in a surface acoustic wave ({SAW}) device.}
@@ -1462,6 +1462,293 @@
       \verb https://doi.org/10.1007/3540173358_10
       \endverb
       \keyw{Charge Decay,Charge Stability,Induction Charge,Surface Trap,Thermally Stimulate Current}
+    \endentry
+    \entry{guo_development_2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=b0e11110613cea290d1833f98d3090c3}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Binbin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c6177db218dcdc5da5504ff7482e8100}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9165a7e8dadbbbdf94e38292f9ab21e1}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Shufeng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b2c4577dcb949eeabe5ed6a2068b2f83}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Miao},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a1e6635a2f123c7e0ff483baf8059434}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yating},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=01bdb551612840c331b414e14575a16e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Zehang},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{f66c74849816c12faf0c0944b2efedfa}
+      \strng{fullhash}{d31a01c969705e6ab285bdd571a3fc2b}
+      \strng{fullhashraw}{d31a01c969705e6ab285bdd571a3fc2b}
+      \strng{bibnamehash}{d31a01c969705e6ab285bdd571a3fc2b}
+      \strng{authorbibnamehash}{d31a01c969705e6ab285bdd571a3fc2b}
+      \strng{authornamehash}{f66c74849816c12faf0c0944b2efedfa}
+      \strng{authorfullhash}{d31a01c969705e6ab285bdd571a3fc2b}
+      \strng{authorfullhashraw}{d31a01c969705e6ab285bdd571a3fc2b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A multi-channel wearable heart sound visualization system based on novel heart sound sensors for imaging cardiac acoustic maps was developed and designed. The cardiac acoustic map could be used to detect cardiac vibration and heart sound propagation. The visualization system acquired 72 heart sound signals and one {ECG} signal simultaneously using 72 heart sound sensors placed on the chest surface and one {ECG} analog front end. The novel heart sound sensors had the advantages of high signal quality, small size, and high sensitivity. Butterworth filtering and wavelet transform were used to reduce noise in the signals. The cardiac acoustic map was obtained based on the cubic spline interpolation of the heart sound signals. The results showed the heart sound signals on the chest surface could be detected and visualized by this system. The variations of heart sounds were clearly displayed. This study provided a way to select optimal position for auscultation of heart sounds. The visualization system could provide a technology for investigating the propagation of heart sound in the thoracic cavity.}
+      \field{issn}{2075-4426}
+      \field{journaltitle}{Journal of Personalized Medicine}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Development of a Multi-Channel Wearable Heart Sound Visualization System}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jpm12122011
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\H3NCAHS2\\Guo et al. - 2022 - Development of a Multi-Channel Wearable Heart Sound Visualization System.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2075-4426/12/12/2011
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2075-4426/12/12/2011
+      \endverb
+      \keyw{phonocardiogram,acoustic mapping,acoustic sensor,multichannel measurement system,sensor arrays}
+    \endentry
+    \entry{giordano_wearable_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5ebc55f7b75a52e2baaa4acc5082e7bb}{%
+           family={Giordano},
+           familyi={G\bibinitperiod},
+           given={Noemi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=afae22d51c25aad02c6e2ba1807dab6d}{%
+           family={Rosati},
+           familyi={R\bibinitperiod},
+           given={Samanta},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f7f917daf2d345e845c549a1bfcc1845}{%
+           family={Balestra},
+           familyi={B\bibinitperiod},
+           given={Gabriella},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6834d40fae2136ae92d5eff67e72857a}{%
+           family={Knaflitz},
+           familyi={K\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{000e7fee33e35410d79d6eaabe36d298}
+      \strng{fullhash}{feda80180efb7617ef8bcac6063a957c}
+      \strng{fullhashraw}{feda80180efb7617ef8bcac6063a957c}
+      \strng{bibnamehash}{feda80180efb7617ef8bcac6063a957c}
+      \strng{authorbibnamehash}{feda80180efb7617ef8bcac6063a957c}
+      \strng{authornamehash}{000e7fee33e35410d79d6eaabe36d298}
+      \strng{authorfullhash}{feda80180efb7617ef8bcac6063a957c}
+      \strng{authorfullhashraw}{feda80180efb7617ef8bcac6063a957c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The home monitoring of patients affected by chronic heart failure ({CHF}) is of key importance in preventing acute episodes. Nevertheless, no wearable technological solution exists to date. A possibility could be offered by Cardiac Time Intervals extracted from simultaneous recordings of electrocardiographic ({ECG}) and phonocardiographic ({PCG}) signals. Nevertheless, the recording of a good-quality {PCG} signal requires accurate positioning of the stethoscope over the chest, which is unfeasible for a naïve user as the patient. In this work, we propose a solution based on multi-source {PCG}. We designed a flexible multi-sensor array to enable the recording of heart sounds by inexperienced users. The multi-sensor array is based on a flexible Printed Circuit Board mounting 48 microphones with a high spatial resolution, three electrodes to record an {ECG} and a Magneto-Inertial Measurement Unit. We validated the usability over a sample population of 42 inexperienced volunteers and found that all subjects could record signals of good to excellent quality. Moreover, we found that the multi-sensor array is suitable for use on a wide population of at-risk patients regardless of their body characteristics. Based on the promising findings of this study, we believe that the described device could enable the home monitoring of {CHF} patients soon.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{13}
+      \field{title}{A Wearable Multi-Sensor Array Enables the Recording of Heart Sounds in Homecare}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6241}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s23136241
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\KNSG5DFP\\Giordano et al. - 2023 - A Wearable Multi-Sensor Array Enables the Recording of Heart Sounds in Homecare.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/23/13/6241
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/23/13/6241
+      \endverb
+      \keyw{electrocardiography,heart failure,phonocardiography,telemedicine,wearable sensors}
+    \endentry
+    \entry{akay_assessment_2016}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=7e172076985d1c6fbfdbbd105a7b280e}{%
+           family={Akay},
+           familyi={A\bibinitperiod},
+           given={Metin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2db16505e7982488e854ba220c7bdb34}{%
+           family={Dragomir},
+           familyi={D\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4fe47fd15ec3a6c095ab8fa00045571c}{%
+           family={Akay},
+           familyi={A\bibinitperiod},
+           given={Yasemin\bibnamedelima M.},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=161e6aca707c565279c003956fc02ed4}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Feihua},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e0eef9526ea84fe80d7aad1d4a514330}{%
+           family={Post},
+           familyi={P\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=665ccbca9747d670cc245f3a7394a24b}{%
+           family={Jneid},
+           familyi={J\bibinitperiod},
+           given={Hani},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d9be810ce2d0179e26ad24ffbf60c066}{%
+           family={Paniagua},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ff271f1791c3965cbb18c65a7d69573c}{%
+           family={Denktas},
+           familyi={D\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=662f256184e6745422a044ec30811a81}{%
+           family={Bozkurt},
+           familyi={B\bibinitperiod},
+           given={Biykem},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4eea19f2fb6cabe21eb66a6373431fe3}
+      \strng{fullhash}{6c3b0c412bceec2af894baf0d406fb5d}
+      \strng{fullhashraw}{6c3b0c412bceec2af894baf0d406fb5d}
+      \strng{bibnamehash}{4eea19f2fb6cabe21eb66a6373431fe3}
+      \strng{authorbibnamehash}{4eea19f2fb6cabe21eb66a6373431fe3}
+      \strng{authornamehash}{4eea19f2fb6cabe21eb66a6373431fe3}
+      \strng{authorfullhash}{6c3b0c412bceec2af894baf0d406fb5d}
+      \strng{authorfullhashraw}{6c3b0c412bceec2af894baf0d406fb5d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Studies involving turbulent flow have been carried out in many parts of the cardiovascular system, and it has been widely reported that turbulence related to stenosis (narrowing) of arteries creates audible sounds, which may be analyzed to yield information about the nature and severity of the blockage. Results so far indicate that the high frequency content of the sounds generally increases with the degree of stenosis. In this paper, we designed and built an {MEMs} microphone array and a signal acquisition board to improve the detection of coronary occlusions using an approach based on the recording and analysis of isolated diastolic heart sounds associated with turbulent blood flow in occluded coronary arteries. The nonlinear dynamic analysis method based on approximate entropy has been proposed for the analysis of diastolic heart sounds from patients with single coronary occlusions, before and after stent placement procedures. The nonlinear dynamic analysis (approximate entropy) measures of the diastolic heart sounds recorded from eight patients with single coronary occlusions and two normal subjects were estimated. In addition, a spectral analysis based on the fast Fourier transform was used to estimate the energy content of the recorded signals. Results suggest the presence of high nonlinear (approximate entropy) values of diastolic heart sounds associated with coronary artery disease (p{<};0.01) as well as significant differences in the energy content of the heart sound signals above and below 150 Hz (p{<};0.05).}
+      \field{issn}{2168-2372}
+      \field{journaltitle}{{IEEE} Journal of Translational Engineering in Health and Medicine}
+      \field{title}{The Assessment of Stent Effectiveness Using a Wearable Beamforming {MEMS} Microphone Array System}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JTEHM.2016.2609901
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\8CVRH3HN\\Akay et al. - 2016 - The Assessment of Stent Effectiveness Using a Wearable Beamforming MEMS Microphone Array System.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/7577733
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/7577733
+      \endverb
+      \keyw{approximate entropy,Arteries,Coronary artery disease,Entropy,Heart,{MEMs} microphone array,Microphone arrays,Nonlinear dynamical systems,nonlinear dynamics analysis,Solid modeling}
+    \endentry
+    \entry{shkel_continuous_2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8fd2e2656020bd9c970e57d0a98547e0}{%
+           family={Shkel},
+           familyi={S\bibinitperiod},
+           given={Anton\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2ff9bd8489d33752a9c81b30c43127c1}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Eun\bibnamedelima Sok},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8883c848480d6f1f26208257c1a3bbd1}
+      \strng{fullhash}{8883c848480d6f1f26208257c1a3bbd1}
+      \strng{fullhashraw}{8883c848480d6f1f26208257c1a3bbd1}
+      \strng{bibnamehash}{8883c848480d6f1f26208257c1a3bbd1}
+      \strng{authorbibnamehash}{8883c848480d6f1f26208257c1a3bbd1}
+      \strng{authornamehash}{8883c848480d6f1f26208257c1a3bbd1}
+      \strng{authorfullhash}{8883c848480d6f1f26208257c1a3bbd1}
+      \strng{authorfullhashraw}{8883c848480d6f1f26208257c1a3bbd1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper reports the implementation and evaluation of an array-based recognition system for the detection of wheezing in breathing. We describe the design and fabrication of a resonant microphone array for pre-filtered acoustic signal acquisition, and outline a novel signal classification algorithm that benefits from its properties. The use of a resonant-transducer array at the input simplifies several of the required digital processing steps necessary for performing spectral filtering and wheezing recognition. The recognizer system is evaluated and compared against a traditional approach, and the experimental results show that recognition processing time (and power consumption) can be reduced 11 times, specifically from 5.11 to 0.46 s. Classification experiments also indicate a robustness in recognition accuracy to low-frequency-dominated background noises such as those emitted by the heart. The findings suggest that this technique has wide-ranging applicability to low-power and self-powered wireless sensing and detection systems.}
+      \field{issn}{1558-1748}
+      \field{journaltitle}{{IEEE} Sensors Journal}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{Continuous Health Monitoring With Resonant-Microphone-Array-Based Wearable Stethoscope}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{19}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4629\bibrangedash 4638}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JSEN.2019.2900713
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\niels\\Zotero\\storage\\JHLG42B5\\Shkel and Kim - 2019 - Continuous Health Monitoring With Resonant-Microphone-Array-Based Wearable Stethoscope.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8648460
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8648460
+      \endverb
+      \keyw{acoustic signal detection,Acoustic transducers,array signal processing,classification algorithms,Filtering,{MEMS} transducers,Microphone arrays,piezoelectric transducers,Resonant frequency,resonant microphone arrays,Sensor arrays,Signal processing,wearable health sensors}
     \endentry
   \enddatalist
 \endrefsection

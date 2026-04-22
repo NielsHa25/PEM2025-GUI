@@ -11,10 +11,14 @@
 \contentsline {section}{\numberline {3.1}Seismographic accelerometers Sensors}{10}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Piezoelectric Sensors}{10}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Capacitive Sensors}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Triboelectric Sensors}{11}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Air Borne Microphone Sounds}{11}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Triboelectric Sensors}{11}{section.3.4}%
 \contentsline {section}{\numberline {3.5}3D-printed Ferroelectret Sensors}{11}{section.3.5}%
-\contentsline {chapter}{\numberline {4}New Measurement Approaches}{13}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Discussion}{14}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {4}Novel Measurement Aproaches}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Array sensed approaches}{13}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Cardiac and Vascular Sounds}{13}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Respiratory Sounds}{14}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}External stimuli}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}MEMS approaches}{14}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Discussion}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{16}{chapter.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

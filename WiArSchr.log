@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (MiKTeX 26.2) (format=lualatex 2026.4.17)  22 APR 2026 16:07
+This is LuaHBTeX, Version 1.24.0 (MiKTeX 26.2) (format=lualatex 2026.4.17)  22 APR 2026 22:57
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"c:/Users/niels/OneDrive/Documents/Bachelorarbeit/Wissenschaftliches Arbeiten
@@ -2686,6 +2686,18 @@ LaTeX Warning: Label `sub@fig:right' multiply defined.
 
 LaTeX Warning: Label `fig:double' multiply defined.
 
+
+LaTeX Warning: Label `fig:left' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:left' multiply defined.
+
+
+LaTeX Warning: Label `fig:right' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:right' multiply defined.
+
 )
 \openout1 = WiArSchr.aux
 
@@ -3048,7 +3060,7 @@ LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
 
 warning  (file images/HeartValves.pdf) (pdf inclusion): PDF inclusion: found PDF
  version '1.7', but at most version '1.4' allowed
-<images/HeartValves.pdf, id=71, 284.7438pt x 284.7438pt>
+<images/HeartValves.pdf, id=79, 284.7438pt x 284.7438pt>
 File: images/HeartValves.pdf Graphic file (type pdf)
 <use images/HeartValves.pdf>
 Package luatex.def Info: images/HeartValves.pdf  used on input line 194.
@@ -3056,7 +3068,7 @@ Package luatex.def Info: images/HeartValves.pdf  used on input line 194.
 
 warning  (file images/Cardiac auscultation points.pdf) (pdf inclusion): PDF incl
 usion: found PDF version '1.7', but at most version '1.4' allowed
-<images/Cardiac auscultation points.pdf, id=72, 284.7438pt x 284.7438pt>
+<images/Cardiac auscultation points.pdf, id=80, 284.7438pt x 284.7438pt>
 File: images/Cardiac auscultation points.pdf Graphic file (type pdf)
 <use images/Cardiac auscultation points.pdf>
 Package luatex.def Info: images/Cardiac auscultation points.pdf  used on input 
@@ -3067,12 +3079,12 @@ LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
 [4
 
 <./images/HeartValves.pdf><./images/Cardiac auscultation points.pdf>]
-<images/S1-Spectrum.png, id=113, 451.6875pt x 358.27852pt>
+<images/S1-Spectrum.png, id=121, 451.6875pt x 358.27852pt>
 File: images/S1-Spectrum.png Graphic file (type png)
 <use images/S1-Spectrum.png>
 Package luatex.def Info: images/S1-Spectrum.png  used on input line 217.
 (luatex.def)             Requested size: 199.16626pt x 157.98198pt.
-<images/S2-Spectrum.png, id=114, 451.6875pt x 358.27852pt>
+<images/S2-Spectrum.png, id=122, 451.6875pt x 358.27852pt>
 File: images/S2-Spectrum.png Graphic file (type png)
 <use images/S2-Spectrum.png>
 Package luatex.def Info: images/S2-Spectrum.png  used on input line 224.
@@ -3083,17 +3095,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--241
  []
 
 [5<./images/S1-Spectrum.png><./images/S2-Spectrum.png>]
-<images/insp-spectrum.png, id=144, 865.73438pt x 673.01437pt>
+
+LaTeX Warning: Citation 'rao_acoustic_2019' on page 6 undefined on input line 2
+56.
+
+<images/insp-spectrum.png, id=152, 865.73438pt x 673.01437pt>
 File: images/insp-spectrum.png Graphic file (type png)
 <use images/insp-spectrum.png>
-Package luatex.def Info: images/insp-spectrum.png  used on input line 264.
+Package luatex.def Info: images/insp-spectrum.png  used on input line 265.
 (luatex.def)             Requested size: 199.16626pt x 154.83112pt.
-<images/trache-Spectrum.png, id=145, 756.57657pt x 585.68813pt>
+<images/trache-Spectrum.png, id=153, 756.57657pt x 585.68813pt>
 File: images/trache-Spectrum.png Graphic file (type png)
 <use images/trache-Spectrum.png>
-Package luatex.def Info: images/trache-Spectrum.png  used on input line 271.
+Package luatex.def Info: images/trache-Spectrum.png  used on input line 272.
 (luatex.def)             Requested size: 199.16626pt x 154.17886pt.
-
 (./tables/respiratory_sounds.tex
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\TU/XCharter(0)/m/n/9 Tur-bu-lent flow vor-
@@ -3149,54 +3164,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
 ) [6<./images/insp-spectrum.png><./images/trache-Spectrum.png>]
 warning  (file images/AE HIT.pdf) (pdf inclusion): PDF inclusion: found PDF vers
 ion '1.7', but at most version '1.4' allowed
-<images/AE HIT.pdf, id=168, 418.98532pt x 255.29378pt>
+<images/AE HIT.pdf, id=177, 418.98532pt x 255.29378pt>
 File: images/AE HIT.pdf Graphic file (type pdf)
 <use images/AE HIT.pdf>
-Package luatex.def Info: images/AE HIT.pdf  used on input line 292.
+Package luatex.def Info: images/AE HIT.pdf  used on input line 293.
 (luatex.def)             Requested size: 398.34012pt x 242.72247pt.
 [7]
 warning  (file images/overviewSpectra.pdf) (pdf inclusion): PDF inclusion: found
  PDF version '1.7', but at most version '1.4' allowed
-<images/overviewSpectra.pdf, id=192, 597.6729pt x 313.17pt>
+<images/overviewSpectra.pdf, id=200, 597.6729pt x 313.17pt>
 File: images/overviewSpectra.pdf Graphic file (type pdf)
 <use images/overviewSpectra.pdf>
-Package luatex.def Info: images/overviewSpectra.pdf  used on input line 318.
+Package luatex.def Info: images/overviewSpectra.pdf  used on input line 317.
 (luatex.def)             Requested size: 497.92326pt x 260.90585pt.
 [8<./images/AE HIT.pdf>] [9<./images/overviewSpectra.pdf>]
 chapter 3.
-LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 349.
 [10
 
 ]
-<images/sensors-24-05354-g001.png, id=269, 397.0032pt x 243.5499pt>
+<images/sensors-24-05354-g001.png, id=274, 397.0032pt x 243.5499pt>
 File: images/sensors-24-05354-g001.png Graphic file (type png)
 <use images/sensors-24-05354-g001.png>
 Package luatex.def Info: images/sensors-24-05354-g001.png  used on input line 3
-86.
+84.
 (luatex.def)             Requested size: 497.92326pt x 305.46231pt.
  [11] [12<./images/sensors-24-05354-g001.png>]
 chapter 4.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 409.
+
+warning  (file images/HeartVest.pdf) (pdf inclusion): PDF inclusion: found PDF v
+ersion '1.7', but at most version '1.4' allowed
+<images/HeartVest.pdf, id=298, 413.92642pt x 310.58032pt>
+File: images/HeartVest.pdf Graphic file (type pdf)
+<use images/HeartVest.pdf>
+Package luatex.def Info: images/HeartVest.pdf  used on input line 427.
+(luatex.def)             Requested size: 199.16626pt x 149.43701pt.
+<images/HeartSensor.png, id=300, 339.30765pt x 162.1257pt>
+File: images/HeartSensor.png Graphic file (type png)
+<use images/HeartSensor.png>
+Package luatex.def Info: images/HeartSensor.png  used on input line 434.
+(luatex.def)             Requested size: 199.16626pt x 95.16599pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
+[][][]|\TU/Roboto(0)/m/n/10 PCB-Based Sen-sor ar-ray us-ing 󰃶8
+ []
+
 [13
 
-]
+] [14<./images/HeartVest.pdf><./images/HeartSensor.png>]
 chapter 5.
-[14
-
-]
-chapter 6.
 [15
 
 ]
+chapter 6.
+[16
+
+]
 LaTeX Font Info:    Font shape `TU/RobotoMono(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 406.
+(Font)              scaled to size 10.95pt on input line 461.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [16
+ [17
 
-] [17]
+] [18]
 
 Package tudapub Warning: You did not provide a Label for key introduction.
 (tudapub)                Either you need to recompile your document or add a
@@ -3217,14 +3250,22 @@ Package tudapub Warning: You did not provide a Label for key discussion.
 (tudapub)                Either you need to recompile your document or add a
 (tudapub)                label using \IMRADlabel.
 
-[18] (./WiArSchr.aux)
+[19] (./WiArSchr.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                WiArSchr
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'WiArSchr.run.xml'.
 
@@ -3232,30 +3273,18 @@ Package logreq Info: Writing requests to 'WiArSchr.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42257 strings out of 475900
+ 42332 strings out of 475900
  125007,2373549 words of node,token memory allocated
- 8412 words of node memory still in use:
+ 8424 words of node memory still in use:
    85 hlist, 9 vlist, 14 rule, 60 disc, 20 local_par, 6 math, 179 glue, 31 kern,
- 35 penalty, 10 margin_kern, 499 glyph, 291 attribute, 78 glue_spec, 151 attribu
-te_list, 1 write, 18 pdf_action, 28 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save,
+ 35 penalty, 10 margin_kern, 499 glyph, 293 attribute, 78 glue_spec, 152 attribu
+te_list, 1 write, 19 pdf_action, 28 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save,
  1 pdf_restore nodes
-   avail lists: 1:11,2:2203,3:710,4:137,5:1155,6:158,7:9077,8:68,9:1013,10:23,11
+   avail lists: 1:12,2:2213,3:710,4:140,5:1155,6:163,7:9083,8:68,9:1013,10:23,11
 :536,12:1
- 64027 multiletter control sequences out of 65536+600000
- 133 fonts using 19267431 bytes
+ 64092 multiletter control sequences out of 65536+600000
+ 134 fonts using 19467759 bytes
  122i,20n,135p,11326b,3315s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.0.6'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.0.5'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.0.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.0.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.0.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.3.0.1'
 <c:/users/niels/appdata/local/programs/miktex/fonts/opentype/google/roboto/robot
 omono-regular.otf><c:/users/niels/appdata/local/programs/miktex/fonts/opentype/p
 ublic/xcharter/xcharter-italic.otf><c:/users/niels/appdata/local/programs/miktex
@@ -3275,9 +3304,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ni
 els/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/U
 sers/niels/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pf
 b>
-Output written on WiArSchr.pdf (18 pages, 2663658 bytes).
+Output written on WiArSchr.pdf (19 pages, 6446479 bytes).
 
-PDF statistics: 520 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 1048576)
- 160 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 575 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 1048576)
+ 192 words of extra memory for PDF output out of 10000 (max. 100000000)
 

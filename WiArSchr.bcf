@@ -2391,6 +2391,7 @@
     <bcf:citekey order="13" intorder="1">ranta_digestive_2010-2</bcf:citekey>
     <bcf:citekey order="14" intorder="1">mallegni_sensing_2022</bcf:citekey>
     <bcf:citekey order="15" intorder="1">andres_respiratory_2018</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">rao_acoustic_2019</bcf:citekey>
     <bcf:citekey order="16" intorder="1">pasterkamp_respiratory_1997</bcf:citekey>
     <bcf:citekey order="17" intorder="1">pasterkamp_respiratory_1997</bcf:citekey>
     <bcf:citekey order="18" intorder="1">mahagnah_gas_1995</bcf:citekey>
@@ -2411,6 +2412,12 @@
     <bcf:citekey order="33" intorder="1">tao_principles_2025</bcf:citekey>
     <bcf:citekey order="34" intorder="1">kong_advances_2024</bcf:citekey>
     <bcf:citekey order="35" intorder="1">sessler_physical_1987</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">guo_development_2022</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">giordano_wearable_2023</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">akay_assessment_2016</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">guo_development_2022</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">giordano_wearable_2023</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">shkel_continuous_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
